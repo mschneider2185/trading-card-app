@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
 import { User } from '@supabase/supabase-js'
-import Image from 'next/image'
+
 
 interface Profile {
   id: string
