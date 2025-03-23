@@ -3,46 +3,38 @@ import { cookies } from 'next/headers'
 import CardGrid from '../../../components/search/CardGrid'
 import SearchFilters from '../../../components/search/SearchFilters'
 
-type SearchParams = {
-  card?: string
-  player?: string
-  year?: string
-  set?: string
-  condition?: string
-  minPrice?: string
-  maxPrice?: string
+type SearchPageProps = {
+  params: { params: string[] }
+  searchParams: Record<string, string | string[] | undefined>
 }
 
-type Props = {
-  searchParams: SearchParams
-}
-
-export default async function SearchPage({ searchParams }: Props) {
+export default async function SearchPage(props: SearchPageProps) {
   const supabase = createServerComponentClient({ cookies })
   
   // Build query based on search parameters
   let query = supabase.from('cards').select('*')
   
-  if (searchParams.card) {
-    query = query.eq('id', searchParams.card)
+  // Handle search from URL params or searchParams
+  const searchQuery = props.params.params[0] || props.searchParams?.q
+  
+  if (searchQuery) {
+    query = query.ilike('name', `%${searchQuery}%`)
   }
-  if (searchParams.player) {
-    query = query.ilike('name', `%${searchParams.player}%`)
+  
+  if (props.searchParams?.year) {
+    query = query.eq('year', props.searchParams.year)
   }
-  if (searchParams.year) {
-    query = query.eq('year', searchParams.year)
+  if (props.searchParams?.set) {
+    query = query.ilike('set', `%${props.searchParams.set}%`)
   }
-  if (searchParams.set) {
-    query = query.ilike('set', `%${searchParams.set}%`)
+  if (props.searchParams?.condition) {
+    query = query.eq('condition', props.searchParams.condition)
   }
-  if (searchParams.condition) {
-    query = query.eq('condition', searchParams.condition)
+  if (props.searchParams?.minPrice) {
+    query = query.gte('price', parseFloat(props.searchParams.minPrice as string))
   }
-  if (searchParams.minPrice) {
-    query = query.gte('price', parseFloat(searchParams.minPrice))
-  }
-  if (searchParams.maxPrice) {
-    query = query.lte('price', parseFloat(searchParams.maxPrice))
+  if (props.searchParams?.maxPrice) {
+    query = query.lte('price', parseFloat(props.searchParams.maxPrice as string))
   }
 
   const { data: cards, error } = await query
