@@ -15,10 +15,9 @@ type SearchParams = {
 
 type Props = {
   searchParams: SearchParams
-  params: { params?: string[] }
 }
 
-export default async function SearchPage({ searchParams, params }: Props) {
+export default async function SearchPage({ searchParams }: Props) {
   const supabase = createServerComponentClient({ cookies })
   
   // Build query based on search parameters
