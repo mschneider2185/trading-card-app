@@ -1,16 +1,33 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
 import { useRouter } from 'next/navigation'
+import { Session } from '@supabase/supabase-js'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
+  const [session, setSession] = useState<Session | null>(null)
   const pathname = usePathname()
   const router = useRouter()
   const supabase = createClientComponentClient()
+
+  useEffect(() => {
+    const getSession = async () => {
+      const { data: { session: currentSession } } = await supabase.auth.getSession()
+      setSession(currentSession)
+    }
+    
+    getSession()
+
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+      setSession(session)
+    })
+
+    return () => subscription.unsubscribe()
+  }, [supabase.auth])
 
   const handleSignOut = async () => {
     await supabase.auth.signOut()
@@ -32,53 +49,58 @@ export default function Navbar() {
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
               <Link
                 href="/"
-                className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${
-                  isActive('/')
-                    ? 'border-indigo-500 text-indigo-900'
-                    : 'border-transparent text-gray-600 hover:text-indigo-700 hover:border-indigo-300'
-                }`}
+                className={`${
+                  isActive('/') ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'
+                } inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium`}
               >
                 Home
               </Link>
               <Link
                 href="/search"
-                className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${
-                  isActive('/search')
-                    ? 'border-indigo-500 text-indigo-900'
-                    : 'border-transparent text-gray-600 hover:text-indigo-700 hover:border-indigo-300'
-                }`}
+                className={`${
+                  isActive('/search') ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'
+                } inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium`}
               >
                 Search
               </Link>
-              <Link
-                href="/collections"
-                className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${
-                  isActive('/collections')
-                    ? 'border-indigo-500 text-indigo-900'
-                    : 'border-transparent text-gray-600 hover:text-indigo-700 hover:border-indigo-300'
-                }`}
-              >
-                Collection
-              </Link>
-              <Link
-                href="/profile"
-                className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${
-                  isActive('/profile')
-                    ? 'border-indigo-500 text-indigo-900'
-                    : 'border-transparent text-gray-600 hover:text-indigo-700 hover:border-indigo-300'
-                }`}
-              >
-                Profile
-              </Link>
+              {session && (
+                <>
+                  <Link
+                    href="/collections"
+                    className={`${
+                      isActive('/collections') ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'
+                    } inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium`}
+                  >
+                    Collection
+                  </Link>
+                  <Link
+                    href="/profile"
+                    className={`${
+                      isActive('/profile') ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'
+                    } inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium`}
+                  >
+                    Profile
+                  </Link>
+                </>
+              )}
             </div>
           </div>
           <div className="hidden sm:ml-6 sm:flex sm:items-center">
-            <button
-              onClick={handleSignOut}
-              className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-700 hover:bg-indigo-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-            >
-              Sign Out
-            </button>
+            {session ? (
+              <button
+                onClick={handleSignOut}
+                className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-md text-sm font-medium"
+              >
+                Sign Out
+              </button>
+            ) : (
+              <Link
+                href="/login"
+                className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-md text-sm font-medium"
+              >
+                Sign In
+              </Link>
+            )}
           </div>
           <div className="-mr-2 flex items-center sm:hidden">
             <button
@@ -145,32 +167,45 @@ export default function Navbar() {
           >
             Search
           </Link>
-          <Link
-            href="/collections"
-            className={`block pl-3 pr-4 py-2 border-l-4 text-base font-medium ${
-              isActive('/collections')
-                ? 'bg-indigo-50 border-indigo-500 text-indigo-900'
-                : 'border-transparent text-gray-600 hover:bg-indigo-50 hover:border-indigo-300 hover:text-indigo-700'
-            }`}
-          >
-            Collection
-          </Link>
-          <Link
-            href="/profile"
-            className={`block pl-3 pr-4 py-2 border-l-4 text-base font-medium ${
-              isActive('/profile')
-                ? 'bg-indigo-50 border-indigo-500 text-indigo-900'
-                : 'border-transparent text-gray-600 hover:bg-indigo-50 hover:border-indigo-300 hover:text-indigo-700'
-            }`}
-          >
-            Profile
-          </Link>
-          <button
-            onClick={handleSignOut}
-            className="block w-full text-left pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600 hover:bg-indigo-50 hover:border-indigo-300 hover:text-indigo-700"
-          >
-            Sign Out
-          </button>
+          {session && (
+            <>
+              <Link
+                href="/collections"
+                className={`block pl-3 pr-4 py-2 border-l-4 text-base font-medium ${
+                  isActive('/collections')
+                    ? 'bg-indigo-50 border-indigo-500 text-indigo-900'
+                    : 'border-transparent text-gray-600 hover:bg-indigo-50 hover:border-indigo-300 hover:text-indigo-700'
+                }`}
+              >
+                Collection
+              </Link>
+              <Link
+                href="/profile"
+                className={`block pl-3 pr-4 py-2 border-l-4 text-base font-medium ${
+                  isActive('/profile')
+                    ? 'bg-indigo-50 border-indigo-500 text-indigo-900'
+                    : 'border-transparent text-gray-600 hover:bg-indigo-50 hover:border-indigo-300 hover:text-indigo-700'
+                }`}
+              >
+                Profile
+              </Link>
+            </>
+          )}
+          {session ? (
+            <button
+              onClick={handleSignOut}
+              className="block w-full text-left pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600 hover:bg-indigo-50 hover:border-indigo-300 hover:text-indigo-700"
+            >
+              Sign Out
+            </button>
+          ) : (
+            <Link
+              href="/login"
+              className="block w-full text-left pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600 hover:bg-indigo-50 hover:border-indigo-300 hover:text-indigo-700"
+            >
+              Sign In
+            </Link>
+          )}
         </div>
       </div>
     </nav>
