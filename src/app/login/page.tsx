@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
+import { AuthError } from '@supabase/supabase-js'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 
@@ -13,7 +14,7 @@ export default function LoginPage() {
   const router = useRouter()
   const supabase = createClientComponentClient()
 
-  const handleEmailLogin = async (e: React.FormEvent) => {
+  const handleEmailLogin = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setError(null)
     setLoading(true)
@@ -26,14 +27,19 @@ export default function LoginPage() {
 
       if (error) throw error
       router.refresh()
-    } catch (error: any) {
-      setError(error.message)
+    } catch (error) {
+      if (error instanceof AuthError) {
+        setError(error.message)
+      } else {
+        setError('An unexpected error occurred')
+      }
     } finally {
       setLoading(false)
     }
   }
 
-  const handleGoogleLogin = async () => {
+  const handleGoogleLogin = async (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault()
     setError(null)
     setLoading(true)
 
@@ -46,8 +52,12 @@ export default function LoginPage() {
       })
 
       if (error) throw error
-    } catch (error: any) {
-      setError(error.message)
+    } catch (error) {
+      if (error instanceof AuthError) {
+        setError(error.message)
+      } else {
+        setError('An unexpected error occurred')
+      }
       setLoading(false)
     }
   }
