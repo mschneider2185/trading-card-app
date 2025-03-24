@@ -84,12 +84,20 @@ export default async function CollectionsPage() {
               Manage your card collection and track your inventory.
             </p>
           </div>
-          <Link
-            href="/search"
-            className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-          >
-            Add Cards
-          </Link>
+          <div className="space-x-4">
+            <Link
+              href="/search"
+              className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            >
+              Add Cards
+            </Link>
+            <Link
+              href="/add-card"
+              className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+            >
+              Add Custom Card
+            </Link>
+          </div>
         </div>
 
         {collections.length === 0 ? (
@@ -98,12 +106,18 @@ export default async function CollectionsPage() {
             <p className="mt-1 text-sm text-gray-500">
               Start building your collection by adding some cards.
             </p>
-            <div className="mt-6">
+            <div className="mt-6 space-x-4">
               <Link
                 href="/search"
                 className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               >
                 Add Cards
+              </Link>
+              <Link
+                href="/add-card"
+                className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+              >
+                Add Custom Card
               </Link>
             </div>
           </div>

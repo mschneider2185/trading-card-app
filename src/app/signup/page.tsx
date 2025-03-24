@@ -12,11 +12,34 @@ export default function SignupPage() {
   const [username, setUsername] = useState('')
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
+  const [googleLoading, setGoogleLoading] = useState(false)
+  const [agreedToTerms, setAgreedToTerms] = useState(false)
   const router = useRouter()
   const supabase = createClientComponentClient()
 
+  const createProfile = async (userId: string) => {
+    const { error: profileError } = await supabase
+      .from('profiles')
+      .insert([
+        {
+          id: userId,
+          username: username || email.split('@')[0], // Use email prefix if no username
+          agreed_to_terms: true,
+          agreed_to_terms_at: new Date().toISOString(),
+          updated_at: new Date().toISOString(),
+        },
+      ])
+
+    if (profileError) throw profileError
+  }
+
   const handleSignup = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
+    if (!agreedToTerms) {
+      setError('You must agree to the Terms and Services to sign up')
+      return
+    }
+
     setError(null)
     setLoading(true)
 
@@ -27,6 +50,9 @@ export default function SignupPage() {
         password,
         options: {
           emailRedirectTo: `${window.location.origin}/auth/callback`,
+          data: {
+            username: username || email.split('@')[0], // Store username in auth metadata
+          },
         },
       })
 
@@ -37,19 +63,9 @@ export default function SignupPage() {
       }
 
       // Create profile
-      const { error: profileError } = await supabase
-        .from('profiles')
-        .insert([
-          {
-            id: authData.user.id,
-            username,
-            updated_at: new Date().toISOString(),
-          },
-        ])
+      await createProfile(authData.user.id)
 
-      if (profileError) throw profileError
-
-      router.refresh()
+      router.push('/add-card')
     } catch (error) {
       if (error instanceof AuthError) {
         setError(error.message)
@@ -64,25 +80,49 @@ export default function SignupPage() {
   }
 
   const handleGoogleSignup = async () => {
+    if (!agreedToTerms) {
+      setError('You must agree to the Terms and Services to sign up')
+      return
+    }
+
     setError(null)
-    setLoading(true)
+    setGoogleLoading(true)
 
     try {
-      const { error } = await supabase.auth.signInWithOAuth({
+      console.log('Starting Google sign-in process...')
+      const { data, error } = await supabase.auth.signInWithOAuth({
         provider: 'google',
         options: {
           redirectTo: `${window.location.origin}/auth/callback`,
+          queryParams: {
+            access_type: 'offline',
+            prompt: 'consent',
+          },
         },
       })
 
-      if (error) throw error
+      if (error) {
+        console.error('Google sign-in error:', error)
+        throw error
+      }
+
+      if (!data?.url) {
+        console.error('No redirect URL received from Google auth')
+        throw new Error('Failed to initialize Google sign-in')
+      }
+
+      console.log('Redirecting to Google auth...')
+      // The page will redirect to Google at this point
     } catch (error) {
+      console.error('Google sign-in error:', error)
       if (error instanceof AuthError) {
         setError(error.message)
+      } else if (error instanceof Error) {
+        setError(error.message)
       } else {
-        setError('An unexpected error occurred')
+        setError('An unexpected error occurred during Google sign-in')
       }
-      setLoading(false)
+      setGoogleLoading(false)
     }
   }
 
@@ -110,11 +150,10 @@ export default function SignupPage() {
                 id="username"
                 name="username"
                 type="text"
-                required
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
                 className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                placeholder="Username"
+                placeholder="Username (optional)"
               />
             </div>
             <div>
@@ -151,15 +190,50 @@ export default function SignupPage() {
             </div>
           </div>
 
+          <div className="flex items-start">
+            <div className="flex items-center h-5">
+              <input
+                id="terms"
+                name="terms"
+                type="checkbox"
+                checked={agreedToTerms}
+                onChange={(e) => setAgreedToTerms(e.target.checked)}
+                className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+              />
+            </div>
+            <div className="ml-3">
+              <label htmlFor="terms" className="text-sm text-gray-600">
+                I agree to the{' '}
+                <Link 
+                  href="/terms" 
+                  target="_blank"
+                  className="text-blue-600 hover:text-blue-500"
+                >
+                  Terms and Services
+                </Link>
+              </label>
+            </div>
+          </div>
+
           {error && (
-            <div className="text-red-500 text-sm text-center">{error}</div>
+            <div className="rounded-md bg-red-50 p-4">
+              <div className="flex">
+                <div className="ml-3">
+                  <h3 className="text-sm font-medium text-red-800">{error}</h3>
+                </div>
+              </div>
+            </div>
           )}
 
           <div>
             <button
               type="submit"
-              disabled={loading}
-              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:opacity-50 disabled:cursor-not-allowed"
+              disabled={loading || !agreedToTerms}
+              className={`group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white ${
+                loading || !agreedToTerms
+                  ? 'bg-gray-400 cursor-not-allowed'
+                  : 'bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+              }`}
             >
               {loading ? 'Creating account...' : 'Create account'}
             </button>
@@ -179,8 +253,12 @@ export default function SignupPage() {
           <div className="mt-6">
             <button
               onClick={handleGoogleSignup}
-              disabled={loading}
-              className="w-full flex items-center justify-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:opacity-50 disabled:cursor-not-allowed"
+              disabled={googleLoading}
+              className={`w-full flex items-center justify-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 ${
+                googleLoading
+                  ? 'bg-gray-100 cursor-not-allowed'
+                  : 'bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+              }`}
             >
               <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24">
                 <path
@@ -200,7 +278,7 @@ export default function SignupPage() {
                   d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
                 />
               </svg>
-              Sign up with Google
+              {googleLoading ? 'Signing up...' : 'Sign up with Google'}
             </button>
           </div>
         </div>

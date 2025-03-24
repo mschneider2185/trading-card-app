@@ -1,0 +1,373 @@
+2025-03-23 20:26:30,553 - INFO - === Starting eBay Card Scraper ===
+2025-03-23 20:26:30,554 - INFO - Directory ready: D:\My Projects\card-images\images
+2025-03-23 20:26:30,554 - INFO - Initializing Chrome WebDriver...
+2025-03-23 20:26:31,839 - INFO - Chrome WebDriver initialized successfully
+2025-03-23 20:26:31,839 - INFO - Navigating to search URL: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&_sacat=0&rt=nc&LH_Sold=1&LH_Complete=1
+2025-03-23 20:26:36,084 - INFO - Found 68 listings on page 1
+2025-03-23 20:26:36,465 - ERROR - Error parsing price '1.00 to 47.50': could not convert string to float: '1.00 to 47.50'
+2025-03-23 20:26:38,705 - INFO - Processing listing 1/67
+2025-03-23 20:26:38,705 - INFO - Scraping listing page: https://ebay.com/itm/123456?itmmeta=012DEW30YG0MEEKND7NH&hash=item123546:g:acwAA9KNiJowH:sc:ShippingMethodStandard!95008!US!-1&itmprp=enc%3AbgepL1tlUHjMGCVfSTGJh%2BzsVKeJ3CQk7NizDI4BZeppuFnmyS6Ijyp8lh%2FnEw%2BWqO7uTV1Q6izE1R0T54aV8j71F4xlWfVcGft4%2FiOQhtqVXA1rW6M1atPARQRmhqUxtEPJKhKtSFgI%2Bvwlzb0GwVCtkp%3ABlBMUObkmabpYw
+2025-03-23 20:26:52,063 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:26:52,064 - INFO - Successfully processed listing 1
+2025-03-23 20:26:53,064 - INFO - Processing listing 2/67
+2025-03-23 20:26:53,065 - INFO - Scraping listing page: https://www.ebay.com/itm/355047214993?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=6060343782&itmmeta=01JQ2RPF02VYTS3X38495WPHZY&hash=item52aa768f91:g:3rwAAOSwIyJlCsuD&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1fg%2FehO8rh6%2Bp5Gx4TYaiD%2B8jkZ9%2Bn9FXItTkMOmHHlp6mkxFt2EQ2B%2BUzcv8iujc89GKj4nIBCJINrjoXuULHfIidgM%2FDYuepn1EuriKK0tVLFQJHngcZ5zLplPSHtjLzgSioz2zJ0OV%2BKQwImhAlpXf%2B9tXqaZtSvrlueQSt8xIliAXixynjrXVdpUidNBFuEML99po1KTr%2FQS4WyP3w7y6GmSP1%2BCfJmi%2FLjVWlh1ND5Y4pH4vPf1Yvo9rfvw%2BfQde5IOAvxZaCkeg7RzIrcVuMBl0KiJSSjk%2BcqolXToNDJit9n1%2BM6zHRgLEr67GEVxBn7JJt%2Fthc3HYcgaHOF%7Ctkp%3ABk9SR5Tw2di4ZQ
+2025-03-23 20:27:07,722 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:27:07,722 - INFO - Successfully processed listing 2
+2025-03-23 20:27:08,722 - INFO - Processing listing 3/67
+2025-03-23 20:27:08,723 - INFO - Scraping listing page: https://www.ebay.com/itm/315560788038?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=6060343782&itmmeta=01JQ2RPF03RDQZ5KKPR0Z5KPNY&hash=item4978e38046:g:MnAAAOSw~jpmgsdP&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1egsfeYYjRtNzhTlqA0il1RNq9A5rJoIxgfBpqdTjFaCDY5EmGAGjASKh2eNqFSFEMz445ICqpxDjP2yVvDfPOFBclbL3JPLV9Dt1RtG4wnlj6%2BWIpcI2V2ajgPvYhzLi6Rpk9zVyvtWs%2BJm3Ibwj6g9almqRhdtnZkTUYCUhYtNFqoSiv%2BPOjSfiJI12%2Bbb0TzehX1FIBh%2FZnxM9h8lQBfPgBSbgqzO32edzZoDfEp%2BoEWSb9QTQI%2FAl7qADykRWQfIvMumLNIosUhxzx%2BIzn%2BXrqDm00rBJqz97%2BAkjBcRRX1Zm3V8GkfCYgKBGTs3kbk9rG04dm6RHdzMIe2ZnR9%7Ctkp%3ABk9SR5Tw2di4ZQ
+2025-03-23 20:27:25,294 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:27:25,294 - INFO - Successfully processed listing 3
+2025-03-23 20:27:26,294 - INFO - Processing listing 4/67
+2025-03-23 20:27:26,295 - INFO - Scraping listing page: https://www.ebay.com/itm/156758795539?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&itmmeta=01JQ2RPF03T47NAS6WAW6CQTSK&hash=item247f8d6513:g:9zEAAeSwa-tntNUg&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1fplfC7U3YS92anmfD962h9s%2BeRPDMgGDavLRUZHFR4rg5IyGwOfIVMrn9NgHUa9b10SXxKOAStOFekVXBeLfljOEPO5%2BxbbC0HamdOQ1b1r0mCGn%2F7nVZrDOz2YIhR5VcrY28qpPFI4%2FHTwLLqi8oMIxnRx6XudhxxCCqjHvNnaepbSqWoWmwftyahavKNNJVn%2FA8y%2BPNJqhic%2FkJg5cYG1VtM8tE7wH5MdcoQPip%2FbDo88r7izSMWYEZDdoOrHHUB19Wk6OhSgr3JXlbSSY1ksmi8OsNz5PAMwmtJkEBE%2BnHvy%2BPaDxpX%2BoRE9Z0jCZmIc%2FhrIhky6Rjzs97oqR1m%7Ctkp%3ABk9SR5Tw2di4ZQ
+2025-03-23 20:27:40,421 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:27:40,421 - INFO - Successfully processed listing 4
+2025-03-23 20:27:41,422 - INFO - Processing listing 5/67
+2025-03-23 20:27:41,423 - INFO - Scraping listing page: https://www.ebay.com/itm/156713926428?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&itmmeta=01JQ2RPF03AG8BFRSSDRTHX941&hash=item247ce0bf1c:g:9zEAAeSwa-tntNUg&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1dXgrvCwUnIUBsWytK7AZtJcCqth5fmeTUhyJHaZHXgya3v2VoVbfrzIatWaTYo0ie%2FEiJM%2BdBF%2BGu3TcZjsgvN1HLAJ828FHfe69FJ5KD6Z4VFMvI5oQgkhazDynRQdh%2FeZYcnJ2jYWMkGwO1cQOd0tmHA%2B%2Bexap6q8mhweKDRBLuoYsiYxnXgNMX%2BYCRfVCX%2FguCQe4HQhl6d373gMC5UB6KUbuyaMWJ%2BFIzBb6uY0sYC%2BLl70K7pKdbguIvApUeOlrrP%2FUMI3%2FiWaFSFiyWAkn%2F6A9Oiamjf836Zn%2BGP%2BeDJWWujkdW%2BF4KO6WarLb2yyY9iYVt3Koc6D7z2J0wp%7Ctkp%3ABk9SR5Tw2di4ZQ
+2025-03-23 20:27:54,742 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:27:54,742 - INFO - Successfully processed listing 5
+2025-03-23 20:27:55,743 - INFO - Processing listing 6/67
+2025-03-23 20:27:55,744 - INFO - Scraping listing page: https://www.ebay.com/itm/297022940911?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=6060343782&itmmeta=01JQ2RPF03PKSAA4FJ4BQ04FSC&hash=item4527f266ef:g:LRYAAeSwdtJnsUWh&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1dt5ktn5awDisoYceL5EdxwNg5eFX177ROtvggT%2FKh6iNPZYfr8V5zdn6ISMxRKW77ZiPe%2BLpD4fS0BiftdqsdhWrB7s%2BixgccKpF%2FGjAYSY2FXnqud0kPBQCa89x%2Bw3u2jQz%2BUgiSe2XuJPu96PhwXLBediftZDGVm%2Fid4LrxTLNNBCbKzn6UiqHTjLdOAR7GoJid0is26cchFzwwR2hfBrV%2BphLgy%2FvblukrmOKSjA429qfKe4kkw44vZsot8Bb3JbPjVx9g1J39BVF4csH7Py%2BMNGwWVMUtH1nP%2BDaY39jM829perTcecSgAUdqF5B9FkixAT2nI2j1rqeitv3HT%7Ctkp%3ABk9SR5Tw2di4ZQ
+2025-03-23 20:28:09,854 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:28:09,854 - INFO - Successfully processed listing 6
+2025-03-23 20:28:10,854 - INFO - Processing listing 7/67
+2025-03-23 20:28:10,855 - INFO - Scraping listing page: https://www.ebay.com/itm/276496852770?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=6060343782&itmmeta=01JQ2RPF03FAMSHHR322XJ2G9S&hash=item40607f2722:g:azIAAOSwUmZmYRbo&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1duA9kqMuZIpOiyV1nBr0cSd4tXOqLwOVDaJhIsAKE4WegMrXvig%2BUPFUE%2Fv3steoNsXo9M%2BzBlfdrUXH3JbUWeOY59z9Cb4bHxho9YGFrIgEi03hCd%2FdLEhDFVu7If08Mg0h329ob5fOPqV2BVLbQWfySgT2UswoKMp%2FnENwfTcWlnB1Znl2YYMFSmWDx%2FFpFfytliX6umOJSUT6z6Ye%2Bmt%2Fc%2Frnsl0AFEQmBKSinPedSCC0gMJjpwhPNWa7TEzFLiWL%2BNuzZbvPAl0UuCUS95q%2FH9yjCG17BjamP9%2Fx5ESA%3D%3D%7Ctkp%3ABk9SR5Tw2di4ZQ
+2025-03-23 20:28:26,959 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:28:26,960 - INFO - Successfully processed listing 7
+2025-03-23 20:28:27,960 - INFO - Processing listing 8/67
+2025-03-23 20:28:27,961 - INFO - Scraping listing page: https://www.ebay.com/itm/186920713258?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=6060343782&itmmeta=01JQ2RPF03H53V48MEJTVGGKG7&hash=item2b8557bc2a:g:VucAAOSw5LJnnB4r&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1dqKfmsOzr38nL6KOhoIPyMixIeLqAmrSlyochnsAkyRB6yLdMNcoeXUosFZg5l3dQh9x7kg8%2FVlh7t0MvZTwda1zKFmAg%2BTOy%2FVLO5%2FYiW2ZM2P136bpibWk%2FYiZUI7E0NJWdtvHOL1nTlZHxuWkn7vwOOYBhuKiRKBihHSwBCKD3yp9lasNHBi3Y8edO91AyqN18h%2FT7PkYgAGxxGyhRlC0C94eC9O9S2YXMVKcQLaBGM7H1MMnNnPmyfDwOscRcYowiAJmqU1qtCc6GE1tsK6LvbE54ROkAH52PbC2vm3g%3D%3D%7Ctkp%3ABk9SR5Tw2di4ZQ
+2025-03-23 20:28:43,455 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:28:43,456 - INFO - Successfully processed listing 8
+2025-03-23 20:28:44,456 - INFO - Processing listing 9/67
+2025-03-23 20:28:44,457 - INFO - Scraping listing page: https://www.ebay.com/itm/294707934495?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=6060343782&itmmeta=01JQ2RPF03BBV2KWQ3YYEGNG47&hash=item449df6351f:g:fOgAAOSwyTpjg8Eb&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1ckCuJmqteeFeMlc9KdzgCF15sZGpdAK6I%2BCOCCx0DBwqi%2Fb3wYzuRWeGAAADzuLsfwcPXSMbx8ix5PAH8AptpHLBWeG6auas8gsj%2FVAvr%2FtQjtG%2FzCUb0wFvzExvwnaMmIt5ca8c2bn%2BQu%2B%2FsSIk2I12T6dl4NMKn3FqsSaAXMQ3YIfVn9ZfW%2F2OTQyRU10CzYusUEBR7qiiGoIe5a54fQZvlZfuF929mj4oxvxVBmr4DfEhJCbEu%2FjdGIek0dcI1QHFfzr6yQz74g8OeghXzYbT7GJuqVGx%2FR1uCw38kKOA%3D%3D%7Ctkp%3ABk9SR5Tw2di4ZQ
+2025-03-23 20:28:48,260 - INFO - Found front image
+2025-03-23 20:28:48,260 - INFO - Downloading image: kaprizov_2020_rookie_9_front.jpg
+2025-03-23 20:28:48,488 - INFO - Successfully saved image to: D:\My Projects\card-images\images\kaprizov_2020_rookie_9_front.jpg
+2025-03-23 20:28:48,489 - INFO - Successfully processed listing 9
+2025-03-23 20:28:49,490 - INFO - Processing listing 10/67
+2025-03-23 20:28:49,490 - INFO - Scraping listing page: https://www.ebay.com/itm/405517666531?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=6060343782&itmmeta=01JQ2RPF03WKCWSPB73J3Y349C&hash=item5e6abc88e3:g:y7sAAOSwTxtnmXtk&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1fgk6%2FeiBYlRtXVzbKHVGsGBYiiCi4fWxFTpF7KslGdoMA5NOIEzKGnIY0WsY0S%2FUIPsYRdsD5re7fGQcCxy4%2FKWWionLvYxt90evFk3%2FHKz4v3EsPES08O23emarK8kYrnjiZp9ZtANo7FhxBuX0Owk0Vd%2BjX7qQ7%2Bjwow%2FmcKRDc9CYrVFpe7bJ%2B9Iq5WGMfhlV9v7I8%2B7GMbvzwcne4NlcM0cAkpkmAH2rCZhqQ1JAMKNIgfg%2FZF90309GbfgjhwqkbsIMFmNAgm86RfBjcYVigKg5%2FlsEUrhLIOEKXtcIVGyg3vxd9y1BlpL1n3m8dkKFXjODX%2BsygUXmfgS7zr%7Ctkp%3ABk9SR5Tw2di4ZQ
+2025-03-23 20:29:07,782 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:29:07,783 - INFO - Successfully processed listing 10
+2025-03-23 20:29:08,783 - INFO - Processing listing 11/67
+2025-03-23 20:29:08,784 - INFO - Scraping listing page: https://www.ebay.com/itm/356513736976?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=6060343782&itmmeta=01JQ2RPF03MJXB3BH5T8XHE9FS&hash=item5301dfe910:g:5g4AAOSweihnmWOx&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1ezt6vWvT4KlUxlYwoFhkS6Dw2GnQf3MlYKtgj8Mv2IGl9RfhVZ0l00Onww68NY4MjFunmkW8vc7yWYPD6egCl7r2pd7CKH2dNf%2Fq3qS1eiDe9GLw3ioFmZOBfDhErBNM86VmpwLleXJTHDsWgnM58U4UyKTuCrGuHqXQuubw2pdyjFYXtvf1dECTunPjs2kOG7l24EDurcAclHtdX0W5pX5S%2BXk1MGEzcBIoSeObDkvmxgvpH6uftxKRny9Qbg6CngM2pKBx%2FWti14SL6S87b6ImS%2BZEzc2xzNs67btXdDkh2iYA%2BRiXWeNgudlAehkCbU5Ic6fJiW8Uh%2F5oa1OQKc%7Ctkp%3ABk9SR5Tw2di4ZQ
+2025-03-23 20:29:26,500 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:29:26,500 - INFO - Successfully processed listing 11
+2025-03-23 20:29:27,501 - INFO - Processing listing 12/67
+2025-03-23 20:29:27,502 - INFO - Scraping listing page: https://www.ebay.com/itm/335772066817?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=6060343782&itmmeta=01JQ2RPF03C8P24K3F5F7AG48J&hash=item4e2d932401:g:ZOoAAOSwqV9niBip&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1clCljYmPZ7bKUmwOcjPJWwNtCW5dXBxD6RMn3366ZGh8Kca%2FRH5sDMXXQJkAaaih4QGT%2FyrG9BVfMpSY2eTRDu55H%2FWZF3FVbts1nSGiiKarDGrHX6xgH3OwXJusMQDybPMVf3HPztfNmpkNjJW5QyaOC98jLXDzewyR9QhSYgJodiyKAIxY5ChwX5TgqwJmwo7%2FS7DBXOrBXChdj21JB5KcPH3jcfvb7uQ%2F7gp1sSsy2bRUFPOaFXf5liIuLV2epLSsSpupFszUa9N0NESHVytrmRPp8x1AFZBddBY98bhQ%3D%3D%7Ctkp%3ABk9SR5Tw2di4ZQ
+2025-03-23 20:29:45,039 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:29:45,040 - INFO - Successfully processed listing 12
+2025-03-23 20:29:46,040 - INFO - Processing listing 13/67
+2025-03-23 20:29:46,040 - INFO - Scraping listing page: https://www.ebay.com/itm/354452830352?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=6060343782&itmmeta=01JQ2RPF03DNMNSG1F9ESTGB0Z&hash=item528708f890:g:-WQAAOSwMCljmj2X&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1dRBYoSOYeQZaoAszWyC4eoYnEz2tEZHcsVFZfvUm0aK%2Bp19dHziTRmf4sya0oSUZFzhkCk15AmH5Y%2FzKHnsu9QX9sSrLMCc9TN0e4zIPKlzjEToKv%2BxXr7c2tnEiTgX0OzOqHVg3M5dlUVL2cqAGXuY2dv8w44S6erojLIW2WFHANhKRcap0B%2FHQMvODL%2F16x2SnkbRfYuOrpAOCQ%2Bu5Ji1164DU6YZ4CT7d7WQs3EQ0ncb%2Bjms9l8kho4ApPpzu7xS4V5Hs7ZGuH%2BFC8fXsZvce4aeY2%2FZBi06X9hWPSPZ6yH2ztlHDbPqLx0CgKbpq99aYDqHDjGd7XLpfRnWyVt%7Ctkp%3ABk9SR5Tw2di4ZQ
+2025-03-23 20:30:03,975 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:30:03,975 - INFO - Successfully processed listing 13
+2025-03-23 20:30:04,976 - INFO - Processing listing 14/67
+2025-03-23 20:30:04,976 - INFO - Scraping listing page: https://www.ebay.com/itm/235915818274?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=6060343782&itmmeta=01JQ2RPF030XXSKYKKBK2QZHD8&hash=item36edadb522:g:AiIAAOSwSQlniEbL&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1exEA%2B1HtFhaUvUaIciAp8EUprHa9knFn0QjoAgLU%2FVlmdNOxxfoAc%2Fy8yVVx%2BZicT7NaYSl%2FbcElTPb0ZY7ceGZLwZOqYzC%2Fj9MLf5MZMAi1rtt4QXBJ1u8Fx1m9YSl2fitOdWXATUTD%2B6pj2Ao6CwH8fxaQ0kdhoSgL%2FG3qR1Q8BdMp73FCCbtu6d1NycC8liWodNstGz6WXWAyi2%2B%2F%2BpJkA3C%2FTVl7o3vcmAsqVvtywgNOXIOe1GqXjDq07eIpenUUq3KYyTomGap2zZ0IaIVjlPmCtzkSCekKxPbSbMAD8aM3pOfj3sw0wBLBTWHNqMh9sKsGX%2FetzfSEgQRLpK%7Ctkp%3ABk9SR5Tw2di4ZQ
+2025-03-23 20:30:23,510 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:30:23,510 - INFO - Successfully processed listing 14
+2025-03-23 20:30:24,510 - INFO - Processing listing 15/67
+2025-03-23 20:30:24,510 - INFO - Scraping listing page: https://www.ebay.com/itm/176795371991?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=6060343782&itmmeta=01JQ2RPF03NHFT848W4B814EMZ&hash=item2929d349d7:g:AqUAAOSwn~pniuLX&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1eYfh3fWB3JW6ip4NbbG45z%2BLlWo%2FnOeI0aTqANlltbtadhg1G9rq6suAB1ulok9Y9kLdjxike8sGm8Kel7zzM7tZeI8zByDFd0BuyI60EKQpgBHR7aULNLXk446TKIAgq3ph7tYMVvccUJfdg4rRtgj8chSfQESvnWrKUaW11bmbslq10y6w6Om5QncKE%2F67zqTbSb%2BmLLSWcRitsHS5zHtuFRi1YBf0pSQ35OiRgfXnyo9i8McRCl5w9Fl6Je7JPxu2gBMTvzAr35s4X58s0cw3DnzYvw3gC71pplwdUQ8w%3D%3D%7Ctkp%3ABk9SR5Tw2di4ZQ
+2025-03-23 20:30:38,506 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:30:38,507 - INFO - Successfully processed listing 15
+2025-03-23 20:30:39,507 - INFO - Processing listing 16/67
+2025-03-23 20:30:39,507 - INFO - Scraping listing page: https://www.ebay.com/itm/167247114147?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=6060343782&itmmeta=01JQ2RPF03VMAE7TN35PN4ZD0N&hash=item26f0b46fa3:g:EM8AAOSwaa5ngtMl&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1cRFwRktfR6jI0VXQVW6mF7l5VOXbfH0wHHEJxQ0diynHyIL5UZnx1MIvTG1JEE4VYxgznEWKF8bF13k0LHiUF%2B394k8FLh7IQC7OEtW3NZL0f%2F9cqfyyo05YH0fU2Ygf%2FofTQCBimQufMDbiG5MB%2FGgcgNbdgZ8iTsuomGgVkZ0myGi7Ue7oTQMGtRnUAiHN639gibNsCNknCkkrcXrVyH%2F6AznSS65pmjhnH6Hbw82DNgBCXWuMpDPhe29f3fy%2B3ebGz16xkxrSU1rKmwd9JIP01eKoQo1gLcAhgcO7GZGg%3D%3D%7Ctkp%3ABk9SR5bw2di4ZQ
+2025-03-23 20:30:54,242 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:30:54,242 - INFO - Successfully processed listing 16
+2025-03-23 20:30:55,242 - INFO - Processing listing 17/67
+2025-03-23 20:30:55,243 - INFO - Scraping listing page: https://www.ebay.com/itm/375874902940?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=6060343782&itmmeta=01JQ2RPF03A0A7E480A2FQWGYR&hash=item5783e3db9c:g:XKQAAOSwslBnY-ya&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1dzBN8PqyC4N5IshZnGFeEwdgptXddzz%2FcSVT5fhCzi8dex68O1b1Ju33A7BtY6s7q031iUQiSDN8fuIcDdggEm%2BatFEHkNC9e4z7oaonYNc9wlOM8Sh7ZJ0WouYVAEkWSonPYU%2B5%2FINe6zBGJWyyUn%2BQbrnM8itUWZyVvregbowSYAGVxws3zU8JmpI30awqCp%2BwSg0JizRTwjumLxZbGyGQdA7DrW0LE4y7zGrYjGzb10weWSY21sea1QdivAr5E3of2KzqJrlV2uqH8BlvG2ua2SGRXVdLxl0xQLL1wD9g%3D%3D%7Ctkp%3ABk9SR5bw2di4ZQ
+2025-03-23 20:31:10,568 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:31:10,568 - INFO - Successfully processed listing 17
+2025-03-23 20:31:11,569 - INFO - Processing listing 18/67
+2025-03-23 20:31:11,569 - INFO - Scraping listing page: https://www.ebay.com/itm/135473338166?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=6060343782&itmmeta=01JQ2RPF03P6Q667HKE74FV4EB&hash=item1f8ad71736:g:SzoAAOSwG2RnctqW&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1dKZMDQAtDLMMNB5gDBd4r%2BIOVyg4OzAJOfwIBkrB5JYQXpEcstUKMGNB8ZDfRBJGtcYsNsulLWCkHiXCCKLqkGNw2LRzxrWj6%2Bo3zlwjVlMidYhjR8KomOVEpKTbhUf8DL0JSKD9m8Gn2w361UvhK2EJ5Vzbgitraxe8CRhoY%2BnXABd7pd5OveYyNZ1vn5xQaZSXflzOzHSUzQjJOGhw%2Fg95WWldQADUvg0V3ZTI%2FR%2BKxh8GYGqhf%2Fo3jKGdbkRQyVdBxQOINEZoMXv%2FScz1tjwO2XWebAlHgCBCJA8IZaXg%3D%3D%7Ctkp%3ABk9SR5bw2di4ZQ
+2025-03-23 20:31:25,511 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:31:25,512 - INFO - Successfully processed listing 18
+2025-03-23 20:31:26,512 - INFO - Processing listing 19/67
+2025-03-23 20:31:26,512 - INFO - Scraping listing page: https://www.ebay.com/itm/135473338204?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=6060343782&itmmeta=01JQ2RPF03F67CD4FYM15VSHAN&hash=item1f8ad7175c:g:bu4AAOSwC4xncttU&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1dmkOjNdKQIWIT51LgojX%2FChe5tW3%2F1FoZJw0DMbjSMT4ElgMkn6dzJNHGvGWbmGSg6TN6RrZBINuy2oKThNLwhzly12KP0BaiFaeHRf3Tu63dx4w0eoHl4sXyVrk5MKmOA6hWtZScjO8gwmISQV9ZSndIRXXCpHLtDq0maMSm1efM2IfVEL7nBK2rG8qXDGIiOnHRLrPzr99z8ioIMqQGf7eMJbNraLX6ZI3FU0hgKxl6Mcp0V3%2Bjtyz%2BTDSf7%2FX8lmZENPXPR%2Fb1G07iXUVaLZvFk6oCJcbE4aUDglnBLkw%3D%3D%7Ctkp%3ABk9SR5bw2di4ZQ
+2025-03-23 20:31:43,740 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:31:43,740 - INFO - Successfully processed listing 19
+2025-03-23 20:31:44,741 - INFO - Processing listing 20/67
+2025-03-23 20:31:44,741 - INFO - Scraping listing page: https://www.ebay.com/itm/135473338194?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=6060343782&itmmeta=01JQ2RPF03S18N1P90GE7RKVZC&hash=item1f8ad71752:g:X8UAAOSws39nctr0&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1eCNZ8ygc2LfuTL0CsDw0m5L%2BWFQULPtjb127PpPFuE0QKTawAw55rBCDgiXV9AP6f%2FUPbRr2PpQw0M6p3tzx5ISdJyuoSgOZcNbSuXoM28o2j4%2FRlG3Vt%2F5b8vLSX80r0SdyJgOa83D6VSoMdO4uhhOXrvmYjyDemJE%2BLRjV5NtgiC%2F92YjmGDNGcg0wALs%2BI1jGZqdWPd%2BavKLW1HxXZqSq9BNCS4nw3VEbSHry0m9gPkHrtrD7e0D7cJSN6Mq6ZGEr%2FNpZ1F8w9Mrl7F5UkWCIsGhCrLUFptUyEM1j9j623Iby4pKurnZK32m0ZBMn5C9PLv8SsrZLsSzoblBCxs%7Ctkp%3ABk9SR5bw2di4ZQ
+2025-03-23 20:32:02,942 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:32:02,943 - INFO - Successfully processed listing 20
+2025-03-23 20:32:03,943 - INFO - Processing listing 21/67
+2025-03-23 20:32:03,944 - INFO - Scraping listing page: https://www.ebay.com/itm/395304459218?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=6060343782&itmmeta=01JQ2RPF03TVJ42NF0N6MDGPDY&hash=item5c09fb5bd2:g:rywAAOSwZbJmBz81&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1dFwXsNCM8Ir%2F0fvoOjmU7rn8rUv6ZUx%2FzGwdKMRicRiC2iTtfy5BZbg5%2Fl%2F00uGllNJcPy%2B5r0Q%2FABrCfx1IRRkkQyZH7bjeNXNOw7vWspjx8Lj1UG5wKm0Z4gcNgukYo7qKSTjPZqAutVPYPN0kmEi%2BfSAkZyF3h81mto3P0S68ilJkFlxVAqucIev7RL1C%2BAdkF6Xk7c0LTmdQowZBKVXj76njJQfxC9bjyhglQrDthAhAQzxSB7b%2Bc%2B1ZqT0NKbbFpdBpUzbMp8Id8NRauyQvv%2FH5Yy49ylGkgrRgXm5A%3D%3D%7Ctkp%3ABk9SR5bw2di4ZQ
+2025-03-23 20:32:20,924 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:32:20,924 - INFO - Successfully processed listing 21
+2025-03-23 20:32:21,925 - INFO - Processing listing 22/67
+2025-03-23 20:32:21,925 - INFO - Scraping listing page: https://www.ebay.com/itm/326490925764?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=24056488471&itmmeta=01JQ2RPF03BAVJPG9PBK60VNV6&hash=item4c04602ac4:g:JfcAAeSwep9n2HTd&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1fM7u9l0ET%2FXcMlNAn0jISZY0uz9XUhVMT0h9tVu%2F8ME4GS8GCt0ABszGsWl2BpJMFEtngKj984EjYcU9dEE50Jb%2FXtXUuswOM3HyIpMbl7O%2FzcO7D03oCG%2FIOMj%2BaSn6iSgV9wPNmfE96R1eLV5mnK1j2Qu2yu9N7nlYNI3WqBCx95GmujzU662qB26lbGOFGZ0nMLhYkVa2eEIAZLodSdyxBSky2IZtfgG6ZTHq1R8Vi3nXLt7Nx6ugAguT9lkF2HF1gr%2F%2BFtJUQYNOVeu8iEP8X6gJUkern55NpMmXMHuT8TxCHnVO1XYLN22JoFXB1bWZKiF4oqpVoTjrHZTsur%7Ctkp%3ABk9SR5bw2di4ZQ
+2025-03-23 20:32:36,993 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:32:36,993 - INFO - Successfully processed listing 22
+2025-03-23 20:32:37,994 - INFO - Processing listing 23/67
+2025-03-23 20:32:37,994 - INFO - Scraping listing page: https://www.ebay.com/itm/388110393700?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&itmmeta=01JQ2RPF0361BT4JSGK5XVQ5HW&hash=item5a5d2ea164:g:7vQAAOSwISNn2c3C&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1dVZQTSHNvErYTar4dGPva8GEoH%2Ba5RTCRb8zMkVmwFFUmAPQWoqvin%2F10piwOfc%2Fk9OJJq4acj4r7Oh8TiRnAU0BcdL4wUjOig4SlXayHW6bsJVrYiXLsr8JuAtXcRPULWH8fLFqzXIX2UD%2FsNIbyzGWYdp%2BkTJIZDuiXmV4YqlgpJphZrwzJxePW2Q%2FMW3O%2BkgM10D1T12j%2FuqdZbCxxhgzkzlWYYtbCJpstUuEDx11KYtPAO1P%2BAu6st1xUfQyMpmhqlqHBDWx3f5nMoZ08E%2B1s%2FUFyZtGv4tm%2BUVU4H4kTw5JbKTiESaxo5UOquF7pNOchiqngbgcTg34Gb93Df%7Ctkp%3ABk9SR5bw2di4ZQ
+2025-03-23 20:32:47,006 - INFO - Found front image
+2025-03-23 20:32:47,006 - INFO - Downloading image: kaprizov_2020_rookie_23_front.jpg
+2025-03-23 20:32:47,174 - INFO - Successfully saved image to: D:\My Projects\card-images\images\kaprizov_2020_rookie_23_front.jpg
+2025-03-23 20:32:47,174 - INFO - Successfully processed listing 23
+2025-03-23 20:32:48,175 - INFO - Processing listing 24/67
+2025-03-23 20:32:48,175 - INFO - Scraping listing page: https://www.ebay.com/itm/326489428711?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=24056488471&itmmeta=01JQ2RPF03Q65CRDAA8FWPEB38&hash=item4c044952e7:g:wwMAAeSwlYZn1xUn&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1cgkwi6wCgT1M8L9ZV6CgNLyllDzUillenRsJiLcEYZBsBvf8gDYuaHnlMZUL20dmiQkfyoi7l6g0PEoSFH9TjN1lG7dU7GpnDmFOnawgNfl0f0nF7xORJWZtiH2uc6J3I%2ByIAXowjEkxnlKraiwlm8eNWb9ZI%2BWnzWlmY3GNTzngXKWDV21ewTarM2flp5dhVQA7G6VB9jTh6GMmMRk58e61jX9fvtEDoHe3SdtYUNpqWkUII6dobuFEXkZr%2FwrPVTdMqTl1Yu8f%2BkNb2luxn2t1Ox2tojd7D4Tlrf2%2FRh1Q%3D%3D%7Ctkp%3ABk9SR5bw2di4ZQ
+2025-03-23 20:33:03,556 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:33:03,556 - INFO - Successfully processed listing 24
+2025-03-23 20:33:04,557 - INFO - Processing listing 25/67
+2025-03-23 20:33:04,557 - INFO - Scraping listing page: https://www.ebay.com/itm/256817360318?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=24056488471&itmmeta=01JQ2RPF03ZN20BE5AAS86PZDW&hash=item3bcb81edbe:g:49cAAeSwCdtnr4Mt&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1cQcrJHEzoGZ5vJ%2BF%2BGL3v6mPunqvqulmcQKMyJDX0r5N15yKLVai6qWMniw3Le7dkGptoKvt9UrOVnEPeTrVgT%2F3AiI363ElCTmDPWGgvAoqnEjAUVHycxGFUBafJdmBTyaKe1uA7DMtMmU5IUQn4suqmyFoWHimevCQgn4DK9VffOHtdD%2FwxyMAMfINll2rq2VMhxKPgTTR69DMinRSfXQDj%2F2w3nO0yqXcUnBxseKo7chKrn1brmJL2%2FZZMEeLVarrMOBKV8I0e%2BqqoKYHcuOZZRel1lCg8ARUuQpWAR81McT%2By5zL7wuI4nrFKtrHZZlXvuG3jt1mQx6OA1gkam%7Ctkp%3ABk9SR5bw2di4ZQ
+2025-03-23 20:33:23,189 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:33:23,190 - INFO - Successfully processed listing 25
+2025-03-23 20:33:24,190 - INFO - Processing listing 26/67
+2025-03-23 20:33:24,190 - INFO - Scraping listing page: https://www.ebay.com/itm/176919129781?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&itmmeta=01JQ2RPF03W4RED8CMS9K94MZB&hash=item293133aeb5:g:zBAAAeSwvu5n0sn9&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1fVK3cQlQwO%2FQd%2FjxKUl61dHrFKtCcV1r5mjKWk%2FhIvAteWB897NYQly9qFe%2F0qXBHBxU7zQCojPgK5e%2BYb4DZ75pKrsEW7S1AxNvh%2FUZS2uWp3KXgva3%2B1IDINRpnaSixG9miT18b13jUDMig4XxVJ3jXO2VjW4fnwktlxeetBgUUXZ7NmgBJkIBM1nMi66X82C8kbfz6qiNOqC--gN5SQNTz8fvXTEjz7zyVKWci4abrcWSoOil0e5KCw%2FODDSgVbuBxmXx9VZMN1XK3mK%2F%2BZNDxdTNisnfW6jaqEvH9RfCG%2FPZJTNtyBJgGDNXidzbGh%2Fzmhe%2FzCOMns4sSVlaEf%7Ctkp%3ABk9SR5bw2di4ZQ
+2025-03-23 20:33:45,005 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:33:45,005 - INFO - Successfully processed listing 26
+2025-03-23 20:33:46,006 - INFO - Processing listing 27/67
+2025-03-23 20:33:46,006 - INFO - Scraping listing page: https://www.ebay.com/itm/356576146827?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=6060343782&itmmeta=01JQ2RPF03W83AHJPMQRGCJ34H&hash=item530598358b:g:AEcAAOSwCCFnsOpo&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1ea2DYSS7mhujff%2FpQR1tOboDf63dEjgYUq8KpC2mt930GWQOt7a0iNQKj7xWxLra3qwX00xAgFpzsWs%2FIium1%2Fk3XtmdB0%2FbQY9pfAFUxBZMrMc053hkqWs2PZNv3paWJ10vni0Qf0sG%2B1YqEnWG9YJGqO0Df9Gc0n9DnwBJTJx%2BEY7OpViEg9WT791SHa7j9XzSFfhySdTmrPROp4wstxYZlwMjgys95cD%2Byl6JYlwFP%2B6NoVUcEDVXv8vo5ee9HdrKDw%2FTUJbNihYVGxbVQcpT%2BYvUkXmTrmNn91RyS%2Bas%2FIemWV071xBqcvB4dX%2F3oJNuamRFW5ERjeH4wvSjwZ%7Ctkp%3ABk9SR5bw2di4ZQ
+2025-03-23 20:34:02,135 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:34:02,136 - INFO - Successfully processed listing 27
+2025-03-23 20:34:03,136 - INFO - Processing listing 28/67
+2025-03-23 20:34:03,136 - INFO - Scraping listing page: https://www.ebay.com/itm/186715516717?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&itmmeta=01JQ2RPF03EE7R93NKWWCPCER0&hash=item2b791caf2d:g:Kl4AAOSwEqtm~-Tc&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1erawWrDoiiaMKYqHBaMAQQ4jAT5Znx2tjNrn8a2Iyzhn162OWLIndAxe9EKpGaY%2Bhk3XXwsw2lV37WdIAgHwMCxrtO1xOJSHsBJkY%2BxCndtyyfYnRoZkSI9jtXPrxpCRp6BtABWp6iNQBIZVMt0BOSnekNW5pA%2Ftphb7ur49vzHnL9JqKJOc%2Bh0lniFeVceBOvuIloMKEmAPLzOK2wlIrdrfR388fwlcaC4FTyBQHxbq%2Fj51VudRIqtWtY%2FSM%2Fo676kWlpcGhEMcKX9quLSrAtm%2BQITwn0IAjn9QoHB8jIpw%3D%3D%7Ctkp%3ABk9SR5bw2di4ZQ
+2025-03-23 20:34:06,851 - INFO - Found front image
+2025-03-23 20:34:06,856 - INFO - Found back image
+2025-03-23 20:34:06,856 - INFO - Downloading image: kaprizov_2020_rookie_28_front.jpg
+2025-03-23 20:34:07,185 - INFO - Successfully saved image to: D:\My Projects\card-images\images\kaprizov_2020_rookie_28_front.jpg
+2025-03-23 20:34:07,185 - INFO - Downloading image: kaprizov_2020_rookie_28_back.jpg
+2025-03-23 20:34:07,358 - INFO - Successfully saved image to: D:\My Projects\card-images\images\kaprizov_2020_rookie_28_back.jpg
+2025-03-23 20:34:07,358 - INFO - Successfully processed listing 28
+2025-03-23 20:34:08,359 - INFO - Processing listing 29/67
+2025-03-23 20:34:08,359 - INFO - Scraping listing page: https://www.ebay.com/itm/296386152636?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=6060343782&itmmeta=01JQ2RPF03HTTRH3X1HV8MGHFJ&hash=item4501fdc8bc:g:WIcAAOSwVBxmKECD&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1fe4H8cdi7hgdwu6VQozkmFkJ3JdVaZgNPfBqjAbKUvLcj3KhGMu4Dvp0QLth6zUTQvJJG6ELbHSpbj7FPDwcsJIyC2nuC7ZGERfokr6YmajsQ80pD2%2Fnnv0Bu68NyYWgaK7m35fQCJwt%2B%2Bv%2Ffnj%2FqOa7f7vTfUAXLCw7d55AwkfHtokgMrWwhQ6VuFal280fXacGIRyCjxhpTI2S7Ps7Gtcdg81YDEaU5Wl6WhvZ7niqNEn1IJEdL3Ay0zsLqU2WO73ozzTcG3lllgfUw1BIY3ezk6rv09epCknvi6jgbMbw%3D%3D%7Ctkp%3ABk9SR5bw2di4ZQ
+2025-03-23 20:34:25,321 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:34:25,321 - INFO - Successfully processed listing 29
+2025-03-23 20:34:26,321 - INFO - Processing listing 30/67
+2025-03-23 20:34:26,322 - INFO - Scraping listing page: https://www.ebay.com/itm/387751250854?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=22058918082&itmmeta=01JQ2RPF03BQEDYWWA3KKX1JXV&hash=item5a47c68ba6:g:aTUAAOSwu~tnZuD2&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1d%2FOExlNvtfCeC%2FngIrapeUsHMKC0r17DWD2MIaDPq0VfCTSKkkkFvZkr3wEqJmVARMnRW0zs0i62Yt2k44cJjXtsSGPSJAgNmgugGhxlj%2FLR2ZrkzzuZBYXO0PXgdxEwbOjOjghe7cL%2BOvTpU1nwp%2F%2BLEHAIqfwuLhFcc5Igmkb73VoNaxicXzwHFo%2B%2Bos0RYVdheBvEuJ5TcT4DvkqKoa88nVh%2BDpRo6JZcbXWHxSgnIvQTxqm8L5oGMU6oA1uxsAqiucxmKkJHUtQ0PAtvc3ifiSooH6VZgLovFIyaST3YkQEIMEhDr%2B8NYKP3nm3TiQPRSoDbV3jrHCZB%2Fxk%2BRk%7Ctkp%3ABk9SR5bw2di4ZQ
+2025-03-23 20:34:41,460 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:34:41,460 - INFO - Successfully processed listing 30
+2025-03-23 20:34:42,461 - INFO - Processing listing 31/67
+2025-03-23 20:34:42,461 - INFO - Scraping listing page: https://www.ebay.com/itm/335791749514?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=24056488471&itmmeta=01JQ2RPF031FJ0F41403MK9H98&hash=item4e2ebf798a:g:OyYAAOSwYbBnnORp&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1fpljZnNeTOE4YR2c4Z6fQe1YBFvPSATzM4XjMjxunVBn5UIJUYh9OgJaiOzMqTDkKSESh3WUR9%2FRqrpPDAlARxhONSyjbJVTuUyxPdKbAIdAY1CNn3KMg3Hy7hoNtVQFT8%2FpMIYOEw%2FmOgJndGHRFG38xQcMFxOBXfHiIR%2FEttYJjrafPAcLUXTXaj23KangcTP1qSxgjGWQyr70cDd14L0YnnsvUo0bmIUGvLIXGenVNtZnCgm6Gb6W1YZ2NGq7KjBjEDRJiwT9zT8cQFsAIUALR%2BGMvDEm5%2FGGgk2dVreg%3D%3D%7Ctkp%3ABk9SR5bw2di4ZQ
+2025-03-23 20:34:55,870 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:34:55,870 - INFO - Successfully processed listing 31
+2025-03-23 20:34:56,870 - INFO - Processing listing 32/67
+2025-03-23 20:34:56,871 - INFO - Scraping listing page: https://www.ebay.com/itm/405607048526?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&itmmeta=01JQ2RPF03HBDNJYRQQAC9KJ09&hash=item5e7010654e:g:w7UAAOSwv6ZnuObd&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1eA%2BRYYk1J3EqU%2FzKdtL8UcaWJXpHEJnZu7U0CwXqQ9ijUyhFyJUr10Gcdun5WNs%2BxpM10Hhfki0dxwoRjBoV4vlqCivEbc29V0k6%2BkOhEMTB4oyc0KeDTXgF0EJAkxUd5rwRDtH8KIjcsQ4bkoJ3bQmHgYkJH5vSe2QqoKytLRKqDJ1TpxAlxCKfVZKU039YFjx69ZnKqS%2FWPjpqIaoV%2B10%2FiTHRZmfzKuw16GdpPRBJnvDqPEsmbDvNzCJwAnYvOqUmWsIUBxrfN6gttI7xsSNrl4gF7SFH5twRgbhAcUuQ%3D%3D%7Ctkp%3ABk9SR5bw2di4ZQ
+2025-03-23 20:34:59,886 - INFO - Found front image
+2025-03-23 20:34:59,886 - INFO - Downloading image: kaprizov_2020_rookie_32_front.jpg
+2025-03-23 20:35:00,298 - INFO - Successfully saved image to: D:\My Projects\card-images\images\kaprizov_2020_rookie_32_front.jpg
+2025-03-23 20:35:00,298 - INFO - Successfully processed listing 32
+2025-03-23 20:35:01,299 - INFO - Processing listing 33/67
+2025-03-23 20:35:01,300 - INFO - Scraping listing page: https://www.ebay.com/itm/205336919150?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&itmmeta=01JQ2RPF03WDMVQ4X3ZAS70P03&hash=item2fcf08bc6e:g:i5EAAeSwlYZnyflL&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1eCGMAblv5kLdm5o4Y5hGOomQMzrfkdga9qJrFwaSvvV38BoCAlEhv1Q6S7cUy4URMd%2BQFqUmnpGt6Ek4iXO%2BnRxi9M%2Fh7UfQirqy4TMdyWZuWh5ZSrdqNI6gidd2q6cPIWJvxx200N94l3sfegIOECZkWIpFqdzYd0cHc2Zsyufi%2FkQ%2BTNWjd9FwTspy1sU9EYxlhcyLF5EDrXIuepmtoKZpb0lkUN%2FVuWIc%2FvZpyh4%2BQhwPSXbhHuf0pLPIN42x%2BYmQ1zox3%2BAgN5c1YRDfQ5p0Nh7fJEpxEG0rNhXVAqjA%3D%3D%7Ctkp%3ABk9SR5bw2di4ZQ
+2025-03-23 20:35:15,123 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:35:15,124 - INFO - Successfully processed listing 33
+2025-03-23 20:35:16,125 - INFO - Processing listing 34/67
+2025-03-23 20:35:16,125 - INFO - Scraping listing page: https://www.ebay.com/itm/276815435724?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=2331378353&itmmeta=01JQ2RPF03VE3C0Y8AKH9HH5YY&hash=item40737c57cc:g:wrUAAOSwYxFnhSNl&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1dH7dUcPNIcfYFNz%2BmCwx0CbJ6h%2BoLqY7IqncnAS5juM6ZzSr9dwom5lVGn3BGy7Fz3vzGIlp1DVMYRgZ0Rh07IuI%2F4yQC5Uqqa4FF2CI%2BmgBT2r8FCIHL9n%2BawAj%2FDPnMAfffovG7tAyEl0s5zPF8pMxtaReKC%2FyCSUTDmtl8A7tu5hAIR6yDefxSOIqSPvVulg4%2F6uYGFRRttYxoP%2B3EjAsk%2Fmqr80YnXA4GkTC%2F4Ne578m4T9dAjTTnputYBivW9llEDQ0ATiqVO7G%2BXrTp0fwXnaXFnyjun%2FBDLUEBkLg%3D%3D%7Ctkp%3ABk9SR5bw2di4ZQ
+2025-03-23 20:35:30,569 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:35:30,569 - INFO - Successfully processed listing 34
+2025-03-23 20:35:31,570 - INFO - Processing listing 35/67
+2025-03-23 20:35:31,570 - INFO - Scraping listing page: https://www.ebay.com/itm/388009069362?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=24056488471&itmmeta=01JQ2RPF03T8SMD6J2GQ20ZXFG&hash=item5a57248b32:g:GI8AAeSwt8FnwNnV&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1eLKsVBzSij0uH25s%2BtOHFxistaa6fGnYsS9HCPGouSj36cBjwzUmkRgCKhqa5GkRcWLUAyFmu%2BbyTNFHCqNpVCqHE%2Fic%2FcfVJp%2BlyrKBo6t24Zv6HAv19NYd9Q29LV9EJGnlNawltGmIJGelQHSHL7F8dXbnteHthybpOhu--YMTYiPIBh3wRsCWlr4Jy11%2Fj6TLvaPPZWkZw4nq1EFqtdYovXmg9%2BAnST7%2FE2fy6wenMUyK6BEifpsCHFbCQ8N5A5ZuwfH%2FvVPZWhL1CQjQvHKsI6P6YHSXW6eMMCIGNphA%3D%3D%7Ctkp%3ABk9SR5jw2di4ZQ
+2025-03-23 20:35:45,190 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:35:45,190 - INFO - Successfully processed listing 35
+2025-03-23 20:35:46,191 - INFO - Processing listing 36/67
+2025-03-23 20:35:46,191 - INFO - Scraping listing page: https://www.ebay.com/itm/306140201812?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=24056488471&itmmeta=01JQ2RPF03PG5DZPPSX6ZK0WQT&hash=item474760c354:g:MaEAAeSwXJpnvkJ0&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1c%2BufZKhPDuMKw%2FpkdU9d592DHfToTMaRtEVNJw%2FfzVQRuUaheqCIcYyYhU4VgY7aIvP0xRWRn%2B9OSC92IZ%2BnTqk6V65EEti8PVGS9bsQR5MIKKoW8cF7MjbipwJMXQtTRhN9Ezw5ia3rct4up2V3%2BPqvUD7qBrw3bQfFugqR65u08TUnL6jErP%2FFWEZrwawiCzmWUIZlrQfu6e%2FWq09v7lF7X9Nq81wVWV%2BhVAJOKRK8LzGmUan99M2niAVycJuQRYND2KPZFFjNRZRdYYKy7mBPBqTbwoiugAGP2B3cQ7iDxIirkFNu%2B1yKEOGEpg%2BK9OiN0zjfCDd7r36rLPP5Rk%7Ctkp%3ABk9SR5jw2di4ZQ
+2025-03-23 20:35:59,750 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:35:59,750 - INFO - Successfully processed listing 36
+2025-03-23 20:36:00,751 - INFO - Processing listing 37/67
+2025-03-23 20:36:00,751 - INFO - Scraping listing page: https://www.ebay.com/itm/316457267688?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=24056488471&itmmeta=01JQ2RPF03JAJCHBZKEPSHB4SY&hash=item49ae52b1e8:g:NhUAAeSwSNlnynDQ&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1dx7kK2p9k8KFSE%2FVK5wwinGDmI%2BZk7rCeRkXHkkw2T7Qs2cLMuh%2BPgkNpTNJZiu%2FuQJ15tcP%2BnEvbn3SRgQVztqMhWSd97Qwnrw8gfT0Kms16zTis4%2BmaZZL1wrODqEEUwRwLgtlZnPrCA4%2FRdzZSqk2zt5eXkbNfvNXoCSu209wtGZUs9OkBTe8VXaTHJdogRu0UmRUAfyUGvJrmn4hSWYOBQCll4EQQa7QQUhz7%2F1PARLfXynHO66mDMaoFsK%2FNTJnlNE9prLZZB1cQCakHm2nqrz4%2B70YHALfD6RNCpuw%3D%3D%7Ctkp%3ABk9SR5jw2di4ZQ
+2025-03-23 20:36:14,149 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:36:14,149 - INFO - Successfully processed listing 37
+2025-03-23 20:36:15,149 - INFO - Processing listing 38/67
+2025-03-23 20:36:15,150 - INFO - Scraping listing page: https://www.ebay.com/itm/176799805091?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=5062036581&itmmeta=01JQ2RPF045TRV6T8SSYBCRH7D&hash=item292a16eea3:g:Y8cAAOSwkG1njtHF&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1dAS9NEO4HI9zhLdJhMLeP1WqbMmqR84bBzqQLRxoXgnESmLgLW%2B0%2Fyo1vj%2FyPZoY17I47ym%2F7qZFBKndg7OJeKncxMZBIjHJ2jTYFgTO3YKc6Qbakvi9qHcNn%2FxEO3iLQrryCkzrZWzttIvOsohEnKn870e2uAnp0AhO2oLJMXEfkZHgor6O3hz8EYeopkMxv6zPYvqq6geLPpXEih1Bi%2BmyoSnI5orwfTzgxjLPMrahx0sp96E9OVlOMWlAyDns0BuUmK8xvCLRWcWwZXrWdwf0mUDOGfpiUAd6L5Uj4Fxg%3D%3D%7Ctkp%3ABk9SR5jw2di4ZQ
+2025-03-23 20:36:28,694 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:36:28,694 - INFO - Successfully processed listing 38
+2025-03-23 20:36:29,695 - INFO - Processing listing 39/67
+2025-03-23 20:36:29,695 - INFO - Scraping listing page: https://www.ebay.com/itm/297025805042?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=28056551295&itmmeta=01JQ2RPF048C4E1NB59G9JABWJ&hash=item45281e1af2:g:g6AAAeSwbABnsmgn&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1erUUUpziKT19rF1dS3e9eX0bsLShEnIneV2Ja9YI7nWut0CcuOtyOnE0Ub%2FQcNvx3lWuaAoksqqo3y5CKgpNiQN5B1VLtTWT9bbPR1n%2FfDFbDAqjzzJ0URSGOsQQTbEsPbYSAc98yr3lN1xACsH%2BT2NcoUC6Jda6Dr98hnk%2BJH0TrQSfuLA5D%2BblC3cBXg73TDEvpxhlvpYsW%2Fcq1X73H0lOjJxgqcdES4uV%2F224jo6r2b12zQRCY4gGS5KvQnLbblcK9ZUTsSFQseY20Osy8ClVk%2FIcQmPiiLFijpTkigJA%3D%3D%7Ctkp%3ABk9SR5jw2di4ZQ
+2025-03-23 20:36:44,154 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:36:44,154 - INFO - Successfully processed listing 39
+2025-03-23 20:36:45,155 - INFO - Processing listing 40/67
+2025-03-23 20:36:45,155 - INFO - Scraping listing page: https://www.ebay.com/itm/235951918781?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=24056488471&itmmeta=01JQ2RPF04J7R50Z4FHKRQD84Q&hash=item36efd48ebd:g:yNgAAOSwNrZnqbWt&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1eYAKOcAEypOI9JSypV8qM88dmggIX4EYUnY2YFc%2FRUEatrA46QD8Ldwt8%2BowK1L1wYSs7z9uS76cyeX2eBC7YJY0bwnCE4IWozQjdkKXAImd9iXRMlqRc1Ud6nV3DtLFixnoyqqbnKs%2BZx5i%2B%2FkDB3LOvbQ3Bp5kueIWyaDElDTDQl4I69BODEAgUlT7hBVzMvAWBmh9%2BGYGin%2FdTHoqyvr9IW8oLP6B7XzLYIGng3YGy6tmPVWdo%2FMa6xG%2B%2BwQsxPbYr7hH8UylB6w6Hp4jR%2BVj5VxYK2yRsxn2woK8upDQ%3D%3D%7Ctkp%3ABk9SR5jw2di4ZQ
+2025-03-23 20:36:58,712 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:36:58,712 - INFO - Successfully processed listing 40
+2025-03-23 20:36:59,713 - INFO - Processing listing 41/67
+2025-03-23 20:36:59,713 - INFO - Scraping listing page: https://www.ebay.com/itm/405404516939?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=24056488471&itmmeta=01JQ2RPF04KMZQG8GVAR5C02JV&hash=item5e63fe024b:g:CQYAAOSwSWtnU0iw&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1fP4oIMHgK4YOvLqJu3SaTD1zI69X60Mn2QuMo5H1mERoe8GVYZguHo%2BPPelH5R8ElOuWdcbAT2azbJRuEHEV7DvAORTOUx%2BYRpna%2FNdreZ5MAic7PEISJ5p9aID4scrrcsMWnotla5l6uw6tlcai%2B3fKxWFETruZoD5gs9K5aYVjZ5gieKx2y9tF3WiahNbEAEtQdea6Xspvu5MIsMa%2BkZwe4yqT06MXmcDXSMw05juNqdnoF%2FlQAljefm%2B13T2QlLDywxcYnRXaE13DvnmdwGuIH8D5uqdSR6TtM%2FIAWlriwJIzCt0kFqdrMYe%2F0YdBEQpwiRFvDLyBSwGDpy9Uy4%7Ctkp%3ABk9SR5jw2di4ZQ
+2025-03-23 20:37:13,316 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:37:13,316 - INFO - Successfully processed listing 41
+2025-03-23 20:37:14,317 - INFO - Processing listing 42/67
+2025-03-23 20:37:14,317 - INFO - Scraping listing page: https://www.ebay.com/itm/205305977176?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&itmmeta=01JQ2RPF04CJZS888CDMDGG226&hash=item2fcd309958:g:r7MAAeSwwlZnt2-7&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1dpSgU4DfuMaoaFsBNHKkqlu5SI7ETTExFO6FugCdMujQJlimgLhGi0vCH%2FwKY%2B%2B6U9iWOoVkiYx%2FoVZc5OpoB%2B21gsfr%2Fdb3zhYCQuCr1h9uCspfrckcfHHr5uxwHuRoY6GnCYTfsxKfwwsNRgo5466CuMrWeZ5UNBnPOTwyiTDfzSLH%2BNGD2I8LOw8PvfX9kmi89oMk51Rx%2Fy%2BTFeGayD3rXUBx6lxF04WVGJwqLvj4u7tKbsxYO%2Fc6EAb%2FInWL8POnYIFpJNAaRZ39hVJFPnAX0T%2BmVhTZBXaMMUt6rrUw%3D%3D%7Ctkp%3ABk9SR5jw2di4ZQ
+2025-03-23 20:37:27,677 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:37:27,677 - INFO - Successfully processed listing 42
+2025-03-23 20:37:28,678 - INFO - Processing listing 43/67
+2025-03-23 20:37:28,678 - INFO - Scraping listing page: https://www.ebay.com/itm/387806093634?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=24056488471&itmmeta=01JQ2RPF04R9MAKDRCYRY2JNAN&hash=item5a4b0b6142:g:E5oAAOSwO0VnfyUc&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1en0TsvhxtgIFfTlDAmS2lRrKm%2FBQKTVI%2FjbQQkHM0VaT0m7yxdw9jADzEgEsrU6JbulR0dm3vISXi0MMxbs%2F%2B6krGm3DT86jNQxGEWdQgw0ij62BEVZOyvMQrmJK58ysJ7LN4FDo7qoZKCzdBoLkX2zHvBugG34XRD7yp5Hi82xtmtHg7ariRviZt5w9D3t5rnwxLyxxzl0TLyo1f7CK8GoSKtjJBNgPmikeMrLCDvFpINkTXOK1UcvAh%2BegFkJ%2FHwcQ230O1owL%2FLZzdE%2BG3Bf9U1XoLBptUsC9TzkSxinH4jtYKoM2II6OyCngyY6NNYg5BDSQ%2F5YbmWv47SeyTz%7Ctkp%3ABk9SR5jw2di4ZQ
+2025-03-23 20:37:42,313 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:37:42,314 - INFO - Successfully processed listing 43
+2025-03-23 20:37:43,314 - INFO - Processing listing 44/67
+2025-03-23 20:37:43,315 - INFO - Scraping listing page: https://www.ebay.com/itm/316500127243?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=2327538093&itmmeta=01JQ2RPF043JE1QTQH2T9C4V7N&hash=item49b0e0ae0b:g:MQYAAeSwMCZn1hes&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1d3nFSx9xnahr%2BQtGAWTp6VhF1SVZNps56kIPhvZPdpYtsvDw9b6GTLw4W6EB5TiK2jlTkt53cP79nP6rXjateruwEo8n0Ra5GD%2FJtL7B%2BAPCF0OfLN5KvBofDeLN09LK0nZhfaTwJx3%2F8C7PPQQ4O2RIS74u4wBc9DCaSU2AUQjRk2jxuaMBz1i6B0bFD1gzxJws64Mqz7aNcTEnZk3iI9EePM1QsfLwdf5pIsaqX7EEwyTMN5UQrLHUbxgbRLpzvQVU2EIOjAn8paUtMo%2BPsIHI1QxDcyFKcx1MP6kQh0Ng%3D%3D%7Ctkp%3ABk9SR5jw2di4ZQ
+2025-03-23 20:37:57,337 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:37:57,338 - INFO - Successfully processed listing 44
+2025-03-23 20:37:58,338 - INFO - Processing listing 45/67
+2025-03-23 20:37:58,339 - INFO - Scraping listing page: https://www.ebay.com/itm/388120337506?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=24056488471&itmmeta=01JQ2RPF0483TT5TFJ54PR6PFM&hash=item5a5dc65c62:g:iTUAAeSwHDpn3HnU&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1dFKEODFulZrutipjoW76F7CQVZnsHQYJA6TZZknWeH%2BnpMgMALYnaVWbyZmT2GlPEY98tGthhlJuyVKphTK4DgE3mUfsQmPlUPwaAL%2FSlniTVuEq5ccdw6hAhHlMgBgBweW3kGfhlDvqwzPPbS9sjNjsGtWgIxGFPFRFLKMbA37xpUPRILe1E12K2VItMSHFNUuXexmZyf%2BICKg4q%2FS9f1JD3hh4ExJ9e8A1RfQoUUVWktO1YA3rSyEstZkNg7zQSEefY%2F7rQ8EihAsagF4Zzgo9Hl9vV48mpGPfgdJbL6OAMigaB4ROvG2f3JJteogStEqpcQtud0FdUEujolQf%2FC%7Ctkp%3ABk9SR5jw2di4ZQ
+2025-03-23 20:38:11,746 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:38:11,746 - INFO - Successfully processed listing 45
+2025-03-23 20:38:12,747 - INFO - Processing listing 46/67
+2025-03-23 20:38:12,747 - INFO - Scraping listing page: https://www.ebay.com/itm/405625924047?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=6060343782&itmmeta=01JQ2RPF04T0SHQZT2M4FSDPFW&hash=item5e713069cf:g:FQQAAeSwVtdnzT9U&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1fmgcqBFViHB3tivdGk5Due27HD8CxJUaE02OuqmQmsn%2FHqNsWFZxgPK%2FKFZ7kU%2B3paD5FUmXHqYswx6IoxQKGPyuKR633SrJB2uxAPP3c%2Fpxn6BoBdt7%2BAMOPmijJGc8iwEuGnKSq%2Bh92g0F%2FuqQefinKTdgpCF9cZyIfkSZ4OG178vls99qO%2F%2BjSak5qW91ugRb%2FgVAj%2Fuzb7Z521oCj43XQynVejQdjXjsvVQkqOXllm%2FuHgY%2F3GjC4BMxWmT7m3TbivJgZkKH%2B4A7GDLa7D%2BTyekROrJttEKLeG%2FuWVvQ%3D%3D%7Ctkp%3ABk9SR5jw2di4ZQ
+2025-03-23 20:38:26,377 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:38:26,377 - INFO - Successfully processed listing 46
+2025-03-23 20:38:27,378 - INFO - Processing listing 47/67
+2025-03-23 20:38:27,378 - INFO - Scraping listing page: https://www.ebay.com/itm/186888515083?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=24056488471&itmmeta=01JQ2RPF04AT73H5B4CR4A7K8E&hash=item2b836c6e0b:g:ewAAAOSwn4xngwDg&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1fl%2B2VuhNYGhTRCdEs89Zex3n7%2Fuz29coUC2kcrEUR%2F%2BEnayNS3VJuuYjNadWQhrUuFzCPub5Cy%2FKH5vQ4njTvpJyL14U%2Fq2SQI5biyGpOctWWVtHVfGo01mYNO9UlFl7TxGD%2FfYR16VbIDZJPAwcYiIOVMQXfjhO6pDrGgMO2NyTBYiOchJhTs8pdYpl%2FfxwIKQhFTDG2sbrdU%2BBMqcxSWtP2oc4CNQZb2FPBaTmx6sXqJHkyx%2BLFNW%2FamVTMVfwuIRqMXDEgV336iDVPovuDe3pxtjA%2FcZpOrlyxLbwWrjGih2YFGVind6PdoLLb1S9fHk%2BLbCE45lNPUwVpsBoHR%7Ctkp%3ABk9SR5jw2di4ZQ
+2025-03-23 20:38:41,237 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:38:41,238 - INFO - Successfully processed listing 47
+2025-03-23 20:38:42,238 - INFO - Processing listing 48/67
+2025-03-23 20:38:42,238 - INFO - Scraping listing page: https://www.ebay.com/itm/186877362414?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&itmmeta=01JQ2RPF04DPJ2RAD2TN9Q6CMK&hash=item2b82c240ee:g:-GYAAOSwdiVnVLSo&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1dMDKzasFR9PQog9fceXc%2BsT9S9dsbJuWlOmP3L%2BkktXgAJBs2c0ZgULSDfNSl6ggm8UFqtUVeYs7ARzeRP02SWrf4%2FSGDZH7DWONZiFmaY5J%2BS%2FIESy%2BTA16B02Bi0qub6wSw0mkr4uZVj%2BuioqIxUber05EcPacHiYlbzgROBiYj02B54bqbIRoaIGsE%2FdWS82ClwbqJpI78xFSC%2Bow2ojBxZMv2tPY6frArYzRiFNOr13YjxQYtPTZsO8eM4fXmHqXyALlpQztgmXTtAl%2F3eLijQs93kpjYo%2B0R%2F93XY9w%3D%3D%7Ctkp%3ABk9SR5jw2di4ZQ
+2025-03-23 20:38:45,399 - INFO - Found front image
+2025-03-23 20:38:45,403 - INFO - Found back image
+2025-03-23 20:38:45,404 - INFO - Downloading image: kaprizov_2020_rookie_48_front.jpg
+2025-03-23 20:38:45,586 - INFO - Successfully saved image to: D:\My Projects\card-images\images\kaprizov_2020_rookie_48_front.jpg
+2025-03-23 20:38:45,586 - INFO - Downloading image: kaprizov_2020_rookie_48_back.jpg
+2025-03-23 20:38:45,723 - INFO - Successfully saved image to: D:\My Projects\card-images\images\kaprizov_2020_rookie_48_back.jpg
+2025-03-23 20:38:45,724 - INFO - Successfully processed listing 48
+2025-03-23 20:38:46,725 - INFO - Processing listing 49/67
+2025-03-23 20:38:46,725 - INFO - Scraping listing page: https://www.ebay.com/itm/156769739097?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=24056488471&itmmeta=01JQ2RPF0430YB7TF01JVG5GE1&hash=item2480346159:g:QscAAOSw23Nnyjwc&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1fBDCaCJ8Xkl9PZvjjkDIr5FlSoML27rGDniPcCBqxMNXqtavBVIIe09SXTTl%2BCRQ4xhLSvM%2BpGfZTu5eQOZGhezdyTibxXCmJ0q77PpX04TgwPAH7E%2F6ssr4cfwE%2F8nrGiNe2x0RrONUCRufdVwONHfohmQg1FPaEShf6Mrt9UZZc%2Bt7ejtxtCm%2BqcZp4zUbDlwMbByRh9O%2BsCGQkE4LW3Al7x8noKZjOH0onCoHAho%2BiCwfRhXM9CcG72d72pAwM8Ca7XSEMoso2CH3rIynBI4CYaOR3LcCUIZhzlz20GHZhIlOFwzGQYvthnBO%2BVaW4HlqVgK6bolixC3BcXBXr1%7Ctkp%3ABk9SR5jw2di4ZQ
+2025-03-23 20:39:00,209 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:39:00,209 - INFO - Successfully processed listing 49
+2025-03-23 20:39:01,210 - INFO - Processing listing 50/67
+2025-03-23 20:39:01,210 - INFO - Scraping listing page: https://www.ebay.com/itm/116425749519?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&itmmeta=01JQ2RPF04G7410Y1K6BGMTCT8&hash=item1b1b83f40f:g:W4QAAOSwm4VnZtiQ&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1fXLA4Qjt%2F4le51%2BH92Mmk3AgxhyjyUWMi1zXxI7oxhQxT8QgqjLesqG1rftrdhoB9CyDPCNfZjhcmtAM%2BT1UiJ3u5%2F3uUfY14JXEIgZeZaPfgFl%2F4TZEkqfurDaOGSCuqCEa%2BXoTm26aFk4hSecwPTbFcYoakWwE%2F7ePqIUwzXXBNWK81OVq9djxyqsycQeYhaVD8%2F5sL4NMkoRSDGa3otAZl8HEaUfkcsf0F1WnNt38GwffCZiGtxcWriEe%2FVylTTrUI85%2Bwo1hva7lFdWQDdgOXYt4l5JFSSfdbV2dHu3Q%3D%3D%7Ctkp%3ABk9SR5jw2di4ZQ
+2025-03-23 20:39:04,590 - INFO - Found front image
+2025-03-23 20:39:04,594 - INFO - Found back image
+2025-03-23 20:39:04,594 - INFO - Downloading image: kaprizov_2020_rookie_50_front.jpg
+2025-03-23 20:39:04,925 - INFO - Successfully saved image to: D:\My Projects\card-images\images\kaprizov_2020_rookie_50_front.jpg
+2025-03-23 20:39:04,926 - INFO - Downloading image: kaprizov_2020_rookie_50_back.jpg
+2025-03-23 20:39:05,138 - INFO - Successfully saved image to: D:\My Projects\card-images\images\kaprizov_2020_rookie_50_back.jpg
+2025-03-23 20:39:05,138 - INFO - Successfully processed listing 50
+2025-03-23 20:39:06,139 - INFO - Processing listing 51/67
+2025-03-23 20:39:06,139 - INFO - Scraping listing page: https://www.ebay.com/itm/156769928269?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&itmmeta=01JQ2RPF04P4AVYXMRTACCXS0K&hash=item248037444d:g:3N0AAeSwn9RnylDC&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1d5%2FAC%2B%2FR3ExhLvCjuXelv%2F0y41b%2BP%2BSpbBJp6vv721v9VzEzcYBASRy%2B27VzBc8slANOktuMzK4M0Gyi%2BcZ2EMo7KM%2FPusqQHxFDqwa5wqhMrffCXGe06hXx%2B1A%2B8i8YgOEikWGLH6VgOnMKpMFZBHxnHw81VJ2VcwCT%2BedLSwALtTy3XkPli0A8vk1GB4g2lUOMyXDcWKtwxp6fLkoUPPgJAn5EXoyokUDlq3JeUR%2FiHRh2xMo0bdNVkgx%2FtUuqqe3eoEDpgjR8msVIul%2FRu%2F3duCV4k7qT8n6RRAFo%2BiGlXJY8CS8hXoTA9dxD1zOUxnx7mdqrSnRGnfl6sVehEl%7Ctkp%3ABk9SR5jw2di4ZQ
+2025-03-23 20:39:19,662 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:39:19,663 - INFO - Successfully processed listing 51
+2025-03-23 20:39:20,663 - INFO - Processing listing 52/67
+2025-03-23 20:39:20,664 - INFO - Scraping listing page: https://www.ebay.com/itm/126990031676?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=24056488471&itmmeta=01JQ2RPF04V87HY8R2J2Z2M3NW&hash=item1d91321b3c:g:QIEAAeSwf9xn0dkj&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1eeSlEoAjAiTraPDEmmYzt5x4UoZ%2Bo4UzxgpTdllL4jTSvW6WbfeHTwGCjdjXlvDmSZVWNlbfktjssu%2BZIJZcZ%2BC5MonCNWfB64IxhG8kQdSZksZ5qGFcVNhw7uwpExiPCWAtCxSzt2ghuo5fVqsx%2B0Txx2SzgwOh2cRbuX%2F5hmWDK2N8l8OPIv0JevVGsXkaUmgU2%2BFxqaqq0ybNerxbDxUup2Nvc32bRDbnElZwNSDkH0fQUvkVn4st2Qev3uNbrZVsmHeyyrQUlOJWTwK4kKpdReFpXvLWS2AQcjy8PiALFNMwaI2c6Sf%2FbH21Gq9CKTVBtZRyYchnYoFvpZStZM%7Ctkp%3ABk9SR5rw2di4ZQ
+2025-03-23 20:39:34,183 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:39:34,184 - INFO - Successfully processed listing 52
+2025-03-23 20:39:35,184 - INFO - Processing listing 53/67
+2025-03-23 20:39:35,184 - INFO - Scraping listing page: https://www.ebay.com/itm/205319287822?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&itmmeta=01JQ2RPF040N793AAKBSR3C4YH&hash=item2fcdfbb40e:g:9aEAAeSwA7JnwUdA&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1c%2FfN338LmCJeE77tuDmx4YbSL%2BlY6S5jUS21FY3q%2F8va%2FwxwyKSbeuox2RLB1CXISwtuEDN5Y0t%2Fg1eIYfEStBbO7I1MXqAmjWKNwiL7KCVoN6%2BkvmMFfu4%2FNvYWLR1tMy1UIpjbMipFDbs4ot%2FTYW4r8DWxvN0jSkhiWCzcJraUjuHoRnGeKCHXf6k%2FqyCa7Mcys9NxcsgrtVbAVm5dcqD8Rv56uNC2ppqQKjFrQ8A4%2F49Z%2FtiSY263NqWmbzPO9Q8WJyrIZFrI3iGxi1BcFwcYTX%2Fc%2F9IFy1TbB3%2F9ZE6Sv8fEYme1qnCPGRV0%2BldfNb1O19lJk7leT%2B4oL3pThq%7Ctkp%3ABk9SR5rw2di4ZQ
+2025-03-23 20:39:50,289 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:39:50,289 - INFO - Successfully processed listing 53
+2025-03-23 20:39:51,290 - INFO - Processing listing 54/67
+2025-03-23 20:39:51,290 - INFO - Scraping listing page: https://www.ebay.com/itm/365421495988?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=24056488471&itmmeta=01JQ2RPF04BFF4AR86DNF6E7QA&hash=item5514d186b4:g:t80AAeSwpEdnvQ08&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1fOxj3fwvLFoBNn%2FRclKk7EVcquMoQ9PEEV87LLPgmmB9l4IH4zPQ5EGj0bjPH69Oh4KTrDoYXsZnoI%2B4pp6Q%2BUOScNnzCKiycvDEflWMwT%2Bd7L9c33dVnk0NOlGImXXe09x4Y%2B%2FTEbSGXXEQyLtnciVf%2FTwKQS0LVifibNwP1%2FQ%2BM5FRag9dJH%2FD8%2BHnjLbkyBnduQ2LlQDquFlQ5LfCAAybL76g%2Bc6%2BFRMiIidLBGPTtBRVFCTiZnH6btGaW4G0zbgoxOkD1322RrP8PvGEDnsEZktxgyqe%2BAn0skF3xR%2FmnD%2F2GJoGpgioYLGLEYb0ESixV5V%2BP9n4LPsKIJNEcN%7Ctkp%3ABk9SR5rw2di4ZQ
+2025-03-23 20:40:04,654 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:40:04,655 - INFO - Successfully processed listing 54
+2025-03-23 20:40:05,655 - INFO - Processing listing 55/67
+2025-03-23 20:40:05,656 - INFO - Scraping listing page: https://www.ebay.com/itm/135561772427?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=24056488471&itmmeta=01JQ2RPF047DSZP8X2XC0TTEZ0&hash=item1f901c7d8b:g:RvAAAOSwsMFns3OY&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1clWy9ry%2Fa2AHe040uNGI5fhjanp%2F%2BUEkKUPMrUPgmC9LK5GMEny206TzYzLSfHYmzOVMEyYOM%2FOcmG2G3MY4D2vWAjnKF4JMbaYDTLxxWAX6cRN6pLMrx99GaSYc8PRF3Yo1Eo8oJ1Z7XxzSDIU9BBAivZ2Nvb%2F%2BAzudKW6xx82yZTEoL6kVLM%2Fks9L14VfFW%2FclFYn2deox5y8%2Fr0JOX%2FlJ4vNTr7WWAbd0nQQplvtpNMcoVeE4gVv6MLZOzHGtu4dNG6IjkVDejAR8Sc978rspFybRZk3wuZAwMogAHCh1P4nczDo3KdhvbUmg%2FuiTkWAespaGkcykTzqR%2FMxnKn%7Ctkp%3ABk9SR5rw2di4ZQ
+2025-03-23 20:40:19,266 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:40:19,266 - INFO - Successfully processed listing 55
+2025-03-23 20:40:20,267 - INFO - Processing listing 56/67
+2025-03-23 20:40:20,267 - INFO - Scraping listing page: https://www.ebay.com/itm/126969874231?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=24056488471&itmmeta=01JQ2RPF04YS6MHRAE68BDQM1T&hash=item1d8ffe8737:g:o-cAAeSwScRnw6J5&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1csrFDWDWpIQo%2ByfW3dIZO3Uyzvo8MFhPTuI05FuHJakeDdFN1ixgWxgCoypZmFcVEXuJZbbAXvt0sKt3EjiyQWmBDoGRNeQLwjNxdFZ%2FI8F5XwaZoP8DDYh0qHKNzdmH2rWu2V3FujQdbsantcjkYYtEFankhPBm1nL5qtXrwxYKZ1rGLUYsGEhS6ZtM9K2ylON3%2FZxEKxbynYNi0EfliASeFBQhVQp0d1WmzLPfRnit5SQCp7uLeH4bo9E1VhCw02BazIHHzsf39JiqdEujUUNRbL99nZS7Xkg%2FyfZL3zonh3YFNAUsrwjypeuHTRonEfhnw%2BJJCpCYaMJDJXWtsh%7Ctkp%3ABk9SR5rw2di4ZQ
+2025-03-23 20:40:33,783 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:40:33,784 - INFO - Successfully processed listing 56
+2025-03-23 20:40:34,784 - INFO - Processing listing 57/67
+2025-03-23 20:40:34,785 - INFO - Scraping listing page: https://www.ebay.com/itm/235961546665?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=25068271835&itmmeta=01JQ2RPF0418XDXY59MM5KAT4F&hash=item36f06777a9:g:dHcAAeSwWMpnslN~&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1dzye1eRfop8C0hqyJuHcemJ1Cd38TWP50C3V4vOf5qirg%2FxZwZep6KDwhDx36h78taMPXN8R70gTrVzCgUd6JDxOPjr0ZWEhtlDUF1%2BIdmnJt%2BZ9quaVwGeFdHaA3mqnjfJa3XvHrlOKLhz9%2FPAtK%2B%2Frj7ulNObQyj8zMAVf%2BcglnABgFGRAjBOLUFoosE%2BOq5y%2B5U66lQ8k221vdFBH6JViHvnPr618m94VKva9wcbBovcRsfCdaEXUv0vL1qpB2hTMGU2%2BskfthbztLcGoUfjG9KgutKN9oGp140FOsEkw%3D%3D%7Ctkp%3ABk9SR5rw2di4ZQ
+2025-03-23 20:40:48,740 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:40:48,741 - INFO - Successfully processed listing 57
+2025-03-23 20:40:49,741 - INFO - Processing listing 58/67
+2025-03-23 20:40:49,741 - INFO - Scraping listing page: https://www.ebay.com/itm/205171938115?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&itmmeta=01JQ2RPF0472738D8AV4ETRPH2&hash=item2fc5335343:g:cIQAAOSwWY5nYuSo&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1dmEuDNmotL8VyApAVfcGFE94jp%2FnnN3%2BoX%2FvyYCIA4HPFg6CnVDWOK2OLSlWqMgOJ4x7sEsLXHdwVExrQEcN%2FhBGmggJMiIRqroxE0zNTFHsPS4V%2B3AA7fP2qiBzU09NfMeffPqs%2FhOjYkSR1UTemqg8SBs0h6a0Bi%2B830mlGGFK1l26U544LjPnaOXrFzESobCYK5MgzPVWkRYJK28HiSeeusItUCq9U6DLA6GfStk4Kp8v1i4OSJ%2FLgYxiaRJUXTivjvPWRvcnDtI0qvRFYn1zS4YHb5WF1oNbnWbLVsNu0YMkngDlzVPMI6kZPti0olkO0KkeYrptVsJQms81Cn%7Ctkp%3ABk9SR5rw2di4ZQ
+2025-03-23 20:40:52,803 - INFO - Found front image
+2025-03-23 20:40:52,804 - INFO - Downloading image: kaprizov_2020_rookie_58_front.jpg
+2025-03-23 20:40:53,105 - INFO - Successfully saved image to: D:\My Projects\card-images\images\kaprizov_2020_rookie_58_front.jpg
+2025-03-23 20:40:53,106 - INFO - Successfully processed listing 58
+2025-03-23 20:40:54,107 - INFO - Processing listing 59/67
+2025-03-23 20:40:54,107 - INFO - Scraping listing page: https://www.ebay.com/itm/396088270495?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=9056482158&itmmeta=01JQ2RPF04FM18PR8KFPWCC6K7&hash=item5c38b35e9f:g:1H8AAOSwADpneLkk&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1fj%2FTtYeuxcPKpWV1Q2%2FZjLSeMjar4Te6GTzye8GaN8PIq0IbkmI4r8rq8N6f9DxkLA22aIljCf9G8HDfhQyW2OVTLfAvYyEEsnv8zBB62yibUyUQgwIiKQ4LP4e01Ibjblnr51SVKAZzERJ77HgZpo%2F60mA3tL%2Fzcfd3Vs2ScoSbGwGVev%2B4j6sV52VJFHDqiAE4RW8DWNpsI4ce2hgapngKuwoth9FsZNRWbGdl%2F9HS9abLBgjM2KTqutkJIsojFFCl00CiOVVnW0%2BbKeuShxvXQoeKB%2Fo8C5JhrkFox9fA%3D%3D%7Ctkp%3ABk9SR5rw2di4ZQ
+2025-03-23 20:41:08,365 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:41:08,365 - INFO - Successfully processed listing 59
+2025-03-23 20:41:09,366 - INFO - Processing listing 60/67
+2025-03-23 20:41:09,366 - INFO - Scraping listing page: https://www.ebay.com/itm/226568830589?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&itmmeta=01JQ2RPF046XNCPFS65X8ZN5S6&hash=item34c08dfe7d:g:KZcAAOSw5OtnmE32&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1fSjzprVOHp1jnZJf6txpps%2BsvxLzf6lUs88P%2B3iG4ertrvX2TzMQjzvmt5TZXN95ECbf2FzkExORDm9nOlmscNUaqjFDsboIIJAD8bk4nj76PVXUJLJzAZaCo2u5s1fk0Iav2A7lz6ub772TxecQ2s5BJLrWiwyhrrE2zL%2Bf5wwL7muHhJ6s%2Fl3QMfNkjIM%2Fuppp2GEdyMSTjgsbNhENvXAWdEJHn1MYm6sRs6jmGod4RdOAnYD712TUCPU3dHkYm9Uv2pbCGBBP8uh1kNgGQ9d2GhTxGAW2vZPMfMP78d%2B79xZ31Ki%2BAuXcEL3%2FrzsKC6qfdVmVpoi3gPA3oBdacq%7Ctkp%3ABk9SR5rw2di4ZQ
+2025-03-23 20:41:16,577 - INFO - Found front image
+2025-03-23 20:41:16,578 - INFO - Downloading image: kaprizov_2020_rookie_60_front.jpg
+2025-03-23 20:41:16,767 - INFO - Successfully saved image to: D:\My Projects\card-images\images\kaprizov_2020_rookie_60_front.jpg
+2025-03-23 20:41:16,768 - INFO - Successfully processed listing 60
+2025-03-23 20:41:17,768 - INFO - Processing listing 61/67
+2025-03-23 20:41:17,769 - INFO - Scraping listing page: https://www.ebay.com/itm/205319287906?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&itmmeta=01JQ2RPF040K1D3BJ4PJDM984F&hash=item2fcdfbb462:g:HlQAAeSwmaRnwUdw&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1fVN%2BRUY3DPqCtm%2B55Vf5K9As%2BXoZmgP951lahzyt3cUhuePrhOaPB7Yn2yHKMcpTuoptcpSoWej0r6f5QN4AoFo04M0J1KR80lO2y5ULRjfIvjOABb2XAYL%2FFX0GdR56jZ0i1M6XvlIheDAnf09l5AOvaV3779m%2FmZ1lY00xA5o7llC6D8vnxUydvy%2FwEpPKaoXmx0tGiI2Scjb7Luy5i7g%2FLr7394mXTr%2BzTy%2BA0aP7cppSQH36qrxy%2FwoJV6tZ4Wwtyz%2FHPFnMTrIvdl8RVearNiM5%2FGFIWdQ6nYC5cX3w%3D%3D%7Ctkp%3ABk9SR5rw2di4ZQ
+2025-03-23 20:41:31,116 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:41:31,116 - INFO - Successfully processed listing 61
+2025-03-23 20:41:32,117 - INFO - Processing listing 62/67
+2025-03-23 20:41:32,117 - INFO - Scraping listing page: https://www.ebay.com/itm/267183910940?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&itmmeta=01JQ2RPF04MKQGG85TEH8VV2C0&hash=item3e3566f01c:g:hbcAAOSwanlnzjVd&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1cu%2BhDmbC1XXKnl%2BR66TaFBuKn78vLjIxvEj5on1euDP4kDOoylcih4cmYqvRtg9EMSmxI%2FY5SuCPeZIko8RmVbA721sE3yfFCbWrOEq0K9fwbwpNR3%2F565egefKtKFKp3ZB4Rad6mOXO%2FJnBXXGReKyDKahBoKvTZGLhiuD%2FkFDP4FahLeFn1wL%2BlZacVEEsMX6Yi9r0gs7dN6IHCM5xHBu5e9nM7AMJeWLMe9nEJ30%2BuHnTWsbEhy2QN0IREDPAdQwAjv3QuPGEgxXBdtjP2gCJvkZSXDbgYrjA9HWzxiBoR2hoacq6ZmL%2Ft7jOMEvDdWlkDegXJZOhhb3ygDp%2FxO%7Ctkp%3ABk9SR5rw2di4ZQ
+2025-03-23 20:41:35,145 - INFO - Found front image
+2025-03-23 20:41:35,145 - INFO - Downloading image: kaprizov_2020_rookie_62_front.jpg
+2025-03-23 20:41:35,385 - INFO - Successfully saved image to: D:\My Projects\card-images\images\kaprizov_2020_rookie_62_front.jpg
+2025-03-23 20:41:35,386 - INFO - Successfully processed listing 62
+2025-03-23 20:41:36,386 - INFO - Processing listing 63/67
+2025-03-23 20:41:36,387 - INFO - Scraping listing page: https://www.ebay.com/itm/356411630649?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=24056488471&itmmeta=01JQ2RPF04PD85W817CYD4TY1E&hash=item52fbc9e439:g:zPwAAOSwzGxnbiDl&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1fpkLrcD3Pj4aeJQJSLAiQ7kGNTnKgMBnKrE%2BYLgSwZUyCdfVQfMfqgout9oUBksLtvM1YMW7mxc78%2BLXJZ1RMImMpdd8s0CKIieN0HxdN0Rv%2Ba3XBX6s0b9M8JSqRZdN13ZfR51lSJMTZICA6JiZDzHCHG0ezxVp%2FPe9dfbT46f%2Bz3T2R8FKf9CqPjQ1i9D3R7vydV356GwICbKbDesN3CqIdzEAv85pm6J4xiN9y5eZWByHQav7oh%2BrycKM7zktMEEfe2kgaSMddrGIJd5W43zWYGXwLDipdr7zE1IkD%2BY0SXOM0M6Bul%2FiSoBMQRMC%2BV7UFi%2FhoKl5TBgQmTdTAZ%7Ctkp%3ABk9SR5rw2di4ZQ
+2025-03-23 20:41:50,017 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:41:50,017 - INFO - Successfully processed listing 63
+2025-03-23 20:41:51,017 - INFO - Processing listing 64/67
+2025-03-23 20:41:51,018 - INFO - Scraping listing page: https://www.ebay.com/itm/297054800400?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=24056488471&itmmeta=01JQ2RPF04X0VAPE3V3641G6BK&hash=item4529d88a10:g:FNsAAOSwlOlnvNYZ&itmprp=enc%3AAQAKAAABEFkggFvd1GGDu0w3yXCmi1ckYGinaTpWHnbtF0sYAMjHddxTUrSsW4kWtAa6gzGqZiwrqKunwq3zwf46dmzFsMQkpf2V5T1JxyXJSKp7DpXoVM7IoMx3NDRQyeBIV0bKLcRQkSA52RWOp9gRRfVEsRnpizsb1G9EmGc1jr6LFrBa5r9PG9yo4EeV37n0lSfIGfhwtRvfy9zMkcQfN31ALb%2Fxh00lJmzazCeqUAzcYL8hCLCgicJROA3fqL96Hjf7Js7Mh%2Fv4zzF6wWpkKe4oGUrevt0Q8WilJGf9A7%2F6UGXwjA0ZyXW4VsnxmKqkjwWzhO8VTK8NBZT%2BHacvz1%2FQ3MFdfOIII9c3%2FDWUHoFjCj4Q%7Ctkp%3ABk9SR5rw2di4ZQ
+2025-03-23 20:42:04,541 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:42:04,542 - INFO - Successfully processed listing 64
+2025-03-23 20:42:05,542 - INFO - Processing listing 65/67
+2025-03-23 20:42:05,542 - INFO - Scraping listing page: https://www.ebay.com/itm/197074900318?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&epid=12056481203&itmmeta=01JQ2RPF04RYATR2S719EH5XYM&hash=item2de294555e:g:2YsAAeSwXJpnxnGE&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1cnpLca%2FfHMKiYY4CaIRQ0jk4NNjlKBuw5%2Bwo3ctAH2G7YJowkHew3NrLge9Oc0f2xYvzZJZ8y2gHKqaHjGc%2BZYjjoCXcpfN%2BgD8Dhe7uj3DiZiufxdctQ4M8zFDXcmiyiBiJBwS5p6hJEEk2Md9Pu2NRfZvvMR%2B5eapOcXHfrrH2zolVQ093TKOSPTxZjbxhPM7zjffw87OU3yKVvW6zgeIElayZZDCP1MfEZTLFMgJOWVb7fI%2B%2BEX69g0to7Lnt1lFNSko2OdN0DYOJFMK8eAS7lTElvT4rRL0iuN%2BcDgeg%3D%3D%7Ctkp%3ABk9SR5rw2di4ZQ
+2025-03-23 20:42:20,043 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:42:20,044 - INFO - Successfully processed listing 65
+2025-03-23 20:42:21,044 - INFO - Processing listing 66/67
+2025-03-23 20:42:21,045 - INFO - Scraping listing page: https://www.ebay.com/itm/156769193147?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&itmmeta=01JQ2RPF04XTYY1GPTHVFE3YFG&hash=item24802c0cbb:g:z~AAAeSw6FtnygUm&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1e5iFjrJ4yrIoPd2nn8PUpHvI8cLc%2BsxUojwtu3y6QDCk2v75CBX7LHwoxEDFBox7zvpFWYNbvs%2Fskj2HU9Hg4fecUwk86ULUut4Ai9iS9j%2FjFPcUlL6iyv0xd2995%2BgefPQXcdxeG1iFcN2m3Ag9HKhGIbNiuqIPTqeAREL%2BSxHBSF07nNHuaAhvT1mUwf7PIgTH9VJcSNgFxWjiiVUb6Qoc5t77tWLOFbdcvG4vEqFJObtXuWXaybI0rxtqRa35hsD8p%2FE9bVYtUaBtWbcJ7y%2BF2lmDwNks95Eu958v7%2BSg%3D%3D%7Ctkp%3ABk9SR5rw2di4ZQ
+2025-03-23 20:42:34,726 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:42:34,726 - INFO - Successfully processed listing 66
+2025-03-23 20:42:35,727 - INFO - Processing listing 67/67
+2025-03-23 20:42:35,727 - INFO - Scraping listing page: https://www.ebay.com/itm/226620186756?_skw=Kirill+Kaprizov+2020+Upper+Deck+NHL+Rookie+Box+Set&itmmeta=01JQ2RPF04ZR5YYMF5HFNZ6GMS&hash=item34c39da084:g:ce8AAeSwRCZnwVDN&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1d%2FZ%2BF6FUBz85L%2BUWPe3wmE2zZeP3RDZt3DenFetfKEUwQs8k8d%2FWwWI1C3dnhFEbizkiMbo57C1McNLKTSGHkuXLW%2FF9Ga5gdDGdV%2FH2TwIUeosh6SLudFX6DuGzx5OKm3w9tthKX3SxoLko%2BHAOMKNQ4FI4dczdeT8%2BKANGTUSn97K9mvlzMaYt4gKAWy7SrXOIR32bg1zdqv8VGoqfsdxMEF9ZupWMeQEZgGdZ%2FQhhUhNwpXAORzLWSkutWSlRCtTSdABhjX1oI2V9A4RbKHKIgm3KOXAP3yg0LEPgoPAA%3D%3D%7Ctkp%3ABk9SR5rw2di4ZQ
+2025-03-23 20:42:49,885 - ERROR - Error scraping listing page: Message: 
+
+2025-03-23 20:42:49,885 - INFO - Successfully processed listing 67
+2025-03-23 20:42:53,207 - INFO - Chrome WebDriver closed
+2025-03-23 20:42:53,208 - INFO - Saving data to CSV...
+2025-03-23 20:42:53,209 - INFO - 
+Data Summary:
+2025-03-23 20:42:53,209 - INFO - Total listings processed: 67
+2025-03-23 20:42:53,211 - INFO - Listings with prices: 65
+2025-03-23 20:42:53,212 - INFO - Listings with dates: 0
+2025-03-23 20:42:53,212 - INFO - Listings with front images: 9
+2025-03-23 20:42:53,212 - INFO - Listings with back images: 3
+2025-03-23 20:42:53,216 - INFO - Successfully saved data to D:\My Projects\card-images\ebay_sales_with_images.csv
+2025-03-23 20:42:53,216 - INFO - 
+First few listings:
+2025-03-23 20:42:53,225 - INFO - === Scraping Complete ===
