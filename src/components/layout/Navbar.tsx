@@ -81,14 +81,6 @@ export default function Navbar() {
                   >
                     Profile
                   </Link>
-                  <Link
-                    href="/settings"
-                    className={`${
-                      isActive('/settings') ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'
-                    } inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium`}
-                  >
-                    Settings
-                  </Link>
                 </>
               )}
             </div>
@@ -196,16 +188,6 @@ export default function Navbar() {
                 }`}
               >
                 Profile
-              </Link>
-              <Link
-                href="/settings"
-                className={`block pl-3 pr-4 py-2 border-l-4 text-base font-medium ${
-                  isActive('/settings')
-                    ? 'bg-indigo-50 border-indigo-500 text-indigo-900'
-                    : 'border-transparent text-gray-600 hover:bg-indigo-50 hover:border-indigo-300 hover:text-indigo-700'
-                }`}
-              >
-                Settings
               </Link>
             </>
           )}
