@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
 import { useRouter } from 'next/navigation'
+import Image from 'next/image'
 
 interface Card {
   id: string
@@ -80,11 +81,13 @@ export default function CardGrid({ cards }: CardGridProps) {
             key={card.id}
             className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200"
           >
-            <div className="aspect-w-1 aspect-h-1">
-              <img
+            <div className="aspect-w-1 aspect-h-1 relative h-48">
+              <Image
                 src={card.image_url || '/placeholder-card.jpg'}
                 alt={card.player_name}
-                className="w-full h-48 object-cover"
+                fill
+                className="object-cover"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
               />
             </div>
             <div className="p-4">

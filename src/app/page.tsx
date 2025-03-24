@@ -1,6 +1,7 @@
 import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
 import { cookies } from 'next/headers'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Card } from '@/lib/supabase'
 
 export default async function Home() {
@@ -45,11 +46,13 @@ export default async function Home() {
         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
           {featuredCards?.map((card: Card) => (
             <div key={card.id} className="group relative">
-              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200">
-                <img
+              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 relative">
+                <Image
                   src={card.image_url}
                   alt={card.name}
-                  className="h-full w-full object-cover object-center group-hover:opacity-75"
+                  fill
+                  className="object-cover object-center group-hover:opacity-75"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
               </div>
               <div className="mt-4 flex justify-between">

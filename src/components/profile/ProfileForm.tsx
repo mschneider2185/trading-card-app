@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
 import { User } from '@supabase/supabase-js'
+import Image from 'next/image'
 
 
 interface Profile {
@@ -201,10 +202,12 @@ export default function ProfileForm({ user, profile }: ProfileFormProps) {
         <div className="mt-2 flex items-center space-x-4">
           <div className="relative h-24 w-24 overflow-hidden rounded-full bg-gray-100">
             {avatarUrl ? (
-              <img
+              <Image
                 src={avatarUrl}
                 alt="Profile"
-                className="h-full w-full object-cover"
+                fill
+                className="object-cover"
+                sizes="96px"
               />
             ) : (
               <svg

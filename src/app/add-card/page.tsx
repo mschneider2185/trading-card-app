@@ -62,7 +62,7 @@ export default function AddCardPage() {
         // Upload image to Supabase Storage
         const fileExt = image.name.split('.').pop();
         const fileName = `${user.data.user.id}/${Date.now()}.${fileExt}`;
-        const { error: uploadError, data } = await supabase.storage
+        const { error: uploadError } = await supabase.storage
           .from('card-images')
           .upload(fileName, image);
 
