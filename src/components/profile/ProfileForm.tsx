@@ -200,7 +200,7 @@ export default function ProfileForm({ user, profile }: ProfileFormProps) {
       if (!session) throw new Error('No active session')
 
       // Call the delete-user Edge Function
-      const response = await fetch('https://xwtgmtlztkeapsdtbglc.supabase.co/functions/v1/delete-user', {
+      const response = await fetch('https://xwtgmtlzkteapsdtbglc.supabase.co/functions/v1/delete-user', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${session.access_token}`,
