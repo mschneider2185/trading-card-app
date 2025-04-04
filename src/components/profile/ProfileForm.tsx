@@ -247,12 +247,10 @@ export default function ProfileForm({ user, profile }: ProfileFormProps) {
           <div className="mt-2 flex items-center space-x-4">
             <div className="relative h-24 w-24 overflow-hidden rounded-full bg-gray-100">
               {avatarUrl ? (
-                <Image
+                <img
                   src={avatarUrl}
                   alt="Profile"
-                  fill
-                  className="object-cover"
-                  sizes="96px"
+                  className="h-full w-full object-cover"
                 />
               ) : (
                 <svg
