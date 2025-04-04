@@ -3,9 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
 import { User } from '@supabase/supabase-js'
-import Image from 'next/image'
 import { useRouter } from 'next/navigation'
-
 
 interface Profile {
   id: string
@@ -101,7 +99,8 @@ export default function ProfileForm({ user, profile }: ProfileFormProps) {
 
       const file = event.target.files[0]
       const fileExt = file.name.split('.').pop()
-      const fileName = `${user.id}-${Math.random()}`
+      const timestamp = Date.now()
+      const fileName = `${user.id}-${timestamp}`
       const filePath = `${fileName}.${fileExt}`
 
       console.log('Starting upload process:', { fileName, fileExt, filePath })
